@@ -1,5 +1,5 @@
 # AutoStorekeeper
-АВТОСКЛАДЕР v1.2.2
+АВТОСКЛАДЕР v2.0.2
 
 by AwersomeZero
 
