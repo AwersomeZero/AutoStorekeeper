@@ -1,6 +1,8 @@
 # AutoStorekeeper
 АВТОСКЛАДЕР v1.2.2
+
 by AwersomeZero
+
 for PepeLand with love
 
 ## ОПИСАНИЕ
