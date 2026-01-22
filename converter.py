@@ -51,9 +51,11 @@ def process_files():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     lists_dir = os.path.join(script_dir, SOURCE_FOLDER)
     sorting_list = pd.read_excel(os.path.join(script_dir, "conf", "sorting_list.xlsx"), sheet_name=0).values
-    sorting_dict = {}
+    en_sorting_dict = {}
+    ru_sorting_dict = {}
     for i in range (len(sorting_list)):
-        sorting_dict[sorting_list[i][0]] = [i, sorting_list[i][1]]
+        ru_sorting_dict[sorting_list[i][0]] = [i, sorting_list[i][3]]
+        en_sorting_dict[sorting_list[i][1]] = [i, sorting_list[i][3]]
     if not os.path.isdir(lists_dir):
         print(f"ОШИБКА: Папка '{SOURCE_FOLDER}' не найдена по пути: {lists_dir}")
         print("Убедитесь, что папка 'lists' находится в той же директории, что и скрипт.")
@@ -70,36 +72,34 @@ def process_files():
 
     for txt_file_path in txt_files:
         data = parse_txt_to_list(txt_file_path)
-        data[0] = ['Local_ID'] + data[0] + ['Стаки'] + ['Сундуки'] + ['Бочки']
-        total_chests = 0
-        total_barrels = 0
+        data[0] = ['Local_ID'] + data[0] + ['Стаки'] + ['Даблчесты'] + ['Шалкербоксы']
+        sorting_dict = ru_sorting_dict if data[1][0] in ru_sorting_dict else en_sorting_dict
         for i in range(1, len(data)-1):
             indx = sorting_dict[data[i][0]][0]
             stacks = ceil(int(data[i][1])/sorting_dict[data[i][0]][1])
-            chests, barrel = [ceil(stacks / 27), 0] if stacks > 27 else [0, 1]
-            total_chests += chests
-            total_barrels += barrel
-            data[i] = [int(indx)] + [data[i][0]] + [int(data[i][1])] + [stacks] + [chests] + [barrel]
+            chests, shulkerboxes = [ceil(stacks / 54), ceil(stacks / 27)]
+            data[i] = [int(indx)] + [data[i][0]] + [int(data[i][1])] + [stacks] + [chests] + [shulkerboxes]
         if not data or len(data) < 2:  # Нужен хотя бы заголовок и одна строка данных
             print(f"В файле {txt_file_path} не найдено данных (или только заголовок). Файл пропущен.")
             continue
         # Создание DataFrame, сохранение в xls
         try:
             header = data[0]
-            data_big_rows = [row for row in data[1:-1] if row != header and int(row[2]) > 3456]
-            data_less_rows = [row for row in data[1:-1] if row != header and int(row[2]) <= 3456]
+            data_big_rows = [row for row in data[1:-1] if row != header and int(row[2]) > 1728]
+            data_less_rows = [row for row in data[1:-1] if row != header and (1728 >= int(row[2]) > 64)]
+            data_min_rows = [row for row in data[1:-1] if row != header and int(row[2]) <= 64]
             big_df = pd.DataFrame(data_big_rows, columns=header)
             less_df = pd.DataFrame(data_less_rows, columns=header)
+            min_df = pd.DataFrame(data_min_rows, columns=header)
             less_df = less_df.sort_values(by=['Local_ID'])
+            min_df = min_df.sort_values(by=['Local_ID'])
             df = pd.concat([big_df, less_df])
-            df[['Итого сундуков', 'Итого бочек']] = ''
-            df.iloc[0, 6] = total_chests
-            df.iloc[0, 7] = total_barrels
+            df = pd.concat([df, min_df])
             base_filename = os.path.basename(txt_file_path)
             excel_filename = os.path.splitext(base_filename)[0] + '.xlsx'
             output_path = os.path.join(script_dir, RESULT_FOLDER, excel_filename)
             # Сохраняем в Excel
-            df.iloc[:, 1:].to_excel(output_path, index=False)
+            df.iloc[:,:].to_excel(output_path, index=False)
             print(f"Файл успешно сохранен: {output_path}\n")
 
         except Exception as e:
