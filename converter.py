@@ -85,9 +85,9 @@ def process_files():
         # Создание DataFrame, сохранение в xls
         try:
             header = data[0]
-            data_big_rows = [row for row in data[1:-1] if row != header and int(row[2]) > 1728]
-            data_less_rows = [row for row in data[1:-1] if row != header and (1728 >= int(row[2]) > 64)]
-            data_min_rows = [row for row in data[1:-1] if row != header and int(row[2]) <= 64]
+            data_big_rows = [row for row in data[1:-1] if row != header and int(row[3]) > 27]
+            data_less_rows = [row for row in data[1:-1] if row != header and (27 >= int(row[3]) > 1)]
+            data_min_rows = [row for row in data[1:-1] if row != header and int(row[3]) <= 1]
             big_df = pd.DataFrame(data_big_rows, columns=header)
             less_df = pd.DataFrame(data_less_rows, columns=header)
             min_df = pd.DataFrame(data_min_rows, columns=header)
