@@ -1,4 +1,4 @@
-# AutoStorekeeper
+# AutoStorekeeper (legacy)
 АВТОСКЛАДЕР v3.0.0
 
 by AwersomeZero
