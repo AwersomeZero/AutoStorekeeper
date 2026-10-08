@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Автоскладер — Конвертер MaterialList в Excel</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- SheetJS для клиентской генерации Excel-файлов без сервера -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <!-- Встроенная база сортировки (работает без CORS на GitHub Pages и локально) -->
+  <script src="conf/sorting_list.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Шапка страницы -->
+    <header class="header">
+      <h1>ASK Uthility - Автоскладер</h1>
+      <p class="tagline">
+        Конвертер списков материалов (MaterialList) из мода Litematica в таблицы Excel для расчёта сундуков, шалкеров и табличек
+      </p>
+      <div class="badges">
+        <span class="badge">3 группы объёма</span>
+        <span class="badge">Сортировка по креативному инвентарю</span>
+        <span class="badge">Клиентская обработка</span>
+      </div>
+    </header>
+
+    <!-- Основной блок действий: Загрузка и Скачивание -->
+    <div class="main-grid">
+
+      <!-- Поле загрузки файла (Drag & Drop и кнопка "Открыть") -->
+      <section class="card">
+        <h2 class="card-title">
+          Загрузка MaterialList (рекомендуется .json)
+        </h2>
+        <div id="dropzone" class="dropzone">
+          <svg class="dropzone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+          </svg>
+          <p class="dropzone-text">Перетащите файл MaterialList (.txt или .json) сюда</p>
+          <p class="dropzone-hint">или выберите файл на вашем устройстве</p>
+          <button id="openFileBtn" class="btn-open" type="button">
+            Открыть
+          </button>
+          <input type="file" id="fileInput" accept=".txt,.json" style="display: none;">
+        </div>
+
+        <div id="fileInfo" class="file-info">
+          <div>
+            <strong>Файл: </strong><span id="fileNameDisplay">-</span>
+          </div>
+          <div>
+            <span id="fileSizeDisplay">-</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Поле скачивания готового файла -->
+      <section class="card">
+        <h2 class="card-title">
+          Готовый результат
+        </h2>
+        <div class="download-box">
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span id="statRows" class="stat-value">0</span>
+              <span class="stat-label">Предметов</span>
+            </div>
+            <div class="stat-item">
+              <span id="statChests" class="stat-value">0</span>
+              <span class="stat-label">Даблчестов</span>
+            </div>
+            <div class="stat-item">
+              <span id="statShulkers" class="stat-value">0</span>
+              <span class="stat-label">Шалкеров</span>
+            </div>
+          </div>
+
+          <div class="download-status-card">
+            <span>Имя файла таблицы:</span>
+            <span id="downloadFilename" class="download-filename">Ожидание файла...</span>
+          </div>
+
+          <button id="downloadBtn" class="btn-download" type="button" disabled>
+            Скачать Excel (.xlsx)
+          </button>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Поле отладки с логами работы скрипта -->
+    <section class="console-card">
+      <div class="console-header">
+        <span>Логи работы скрипта и отладка</span>
+        <div class="console-actions">
+          <button id="copyLogsBtn" class="console-btn" type="button">Копировать</button>
+          <button id="clearLogsBtn" class="console-btn" type="button">Очистить</button>
+        </div>
+      </div>
+      <div id="consoleBody" class="console-body">
+        <!-- Сообщения лога добавляются динамически -->
+      </div>
+    </section>
+
+    <!-- Секция просмотра таблицы (Оставлено много места снизу) -->
+    <section class="card preview-section">
+      <div class="preview-header-meta">
+        <h2 class="card-title" style="margin-bottom: 0;">
+          Просмотр таблицы материалов
+        </h2>
+        <div class="group-tabs">
+          <span id="groupBadgeBig" class="group-badge">Более 27 стаков: 0</span>
+          <span id="groupBadgeMid" class="group-badge">От 1 до 27 стаков: 0</span>
+          <span id="groupBadgeMin" class="group-badge">Меньше 1 стака: 0</span>
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <div id="tablePlaceholder" class="table-placeholder">
+          <svg class="table-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v18h16.5V3H3.75zm0 4.5h16.5M3.75 12h16.5M3.75 16.5h16.5M9 3v18M15 3v18" />
+          </svg>
+          <p style="font-weight: 600; font-size: 1.1rem;">Таблица не сформирована</p>
+          <p style="font-size: 0.9rem; max-width: 500px;">
+            Загрузите файл MaterialList.txt выше. Таблица отобразит точный расчёт стаков, сундуков и шалкеров с сохранением порядка креативного инвентаря.
+          </p>
+        </div>
+
+        <table id="dataTable" class="data-table">
+          <thead>
+            <tr>
+              <th style="width: 90px;">Local_ID</th>
+              <th>Предмет (Item)</th>
+              <th style="width: 110px;">Всего (Total)</th>
+              <th style="width: 90px;">Стаки</th>
+              <th style="width: 110px;">Даблчесты</th>
+              <th style="width: 120px;">Шалкербоксы</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <!-- Строки таблицы добавляются через JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

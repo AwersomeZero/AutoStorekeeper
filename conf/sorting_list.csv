@@ -1,0 +1,1417 @@
+RU_Name;EN_name;ID;Size
+Дубовое бревно;Oak Log;minecraft:oak_log;64
+Дубовая древесина;Oak Wood;minecraft:oak_wood;64
+Обтёсанное дубовое бревно;Stripped Oak Log;minecraft:stripped_oak_log;64
+Обтёсанная дубовая древесина;Stripped Oak Wood;minecraft:stripped_oak_wood;64
+Дубовые доски;Oak Planks;minecraft:oak_planks;64
+Дубовые ступеньки;Oak Stairs;minecraft:oak_stairs;64
+Дубовая плита;Oak Slab;minecraft:oak_slab;64
+Дубовый забор;Oak Fence;minecraft:oak_fence;64
+Дубовые ворота;Oak Fence Gate;minecraft:oak_fence_gate;64
+Дубовая дверь;Oak Door;minecraft:oak_door;64
+Дубовый люк;Oak Trapdoor;minecraft:oak_trapdoor;64
+Дубовая нажимная пластина;Oak Pressure Plate;minecraft:oak_pressure_plate;64
+Дубовая кнопка;Oak Button;minecraft:oak_button;64
+Дубовая полка;Oak Shelf;minecraft:oak_shelf;64
+Еловое бревно;Spruce Log;minecraft:spruce_log;64
+Еловая древесина;Spruce Wood;minecraft:spruce_wood;64
+Обтёсанное еловое бревно;Stripped Spruce Log;minecraft:stripped_spruce_log;64
+Обтёсанная еловая древесина;Stripped Spruce Wood;minecraft:stripped_spruce_wood;64
+Еловые доски;Spruce Planks;minecraft:spruce_planks;64
+Еловые ступеньки;Spruce Stairs;minecraft:spruce_stairs;64
+Еловая плита;Spruce Slab;minecraft:spruce_slab;64
+Еловый забор;Spruce Fence;minecraft:spruce_fence;64
+Еловые ворота;Spruce Fence Gate;minecraft:spruce_fence_gate;64
+Еловая дверь;Spruce Door;minecraft:spruce_door;64
+Еловый люк;Spruce Trapdoor;minecraft:spruce_trapdoor;64
+Еловая нажимная пластина;Spruce Pressure Plate;minecraft:spruce_pressure_plate;64
+Еловая кнопка;Spruce Button;minecraft:spruce_button;64
+Еловая полка;Spruce Shelf;minecraft:spruce_shelf;64
+Берёзовое бревно;Birch Log;minecraft:birch_log;64
+Берёзовая древесина;Birch Wood;minecraft:birch_wood;64
+Обтёсанное берёзовое бревно;Stripped Birch Log;minecraft:stripped_birch_log;64
+Обтёсанная берёзовая древесина;Stripped Birch Wood;minecraft:stripped_birch_wood;64
+Берёзовые доски;Birch Planks;minecraft:birch_planks;64
+Берёзовые ступеньки;Birch Stairs;minecraft:birch_stairs;64
+Берёзовая плита;Birch Slab;minecraft:birch_slab;64
+Берёзовый забор;Birch Fence;minecraft:birch_fence;64
+Берёзовые ворота;Birch Fence Gate;minecraft:birch_fence_gate;64
+Берёзовая дверь;Birch Door;minecraft:birch_door;64
+Берёзовый люк;Birch Trapdoor;minecraft:birch_trapdoor;64
+Берёзовая нажимная пластина;Birch Pressure Plate;minecraft:birch_pressure_plate;64
+Берёзовая кнопка;Birch Button;minecraft:birch_button;64
+Берёзовая полка;Birch Shelf;minecraft:birch_shelf;64
+Бревно джунглевого дерева;Jungle Log;minecraft:jungle_log;64
+Древесина джунглевого дерева;Jungle Wood;minecraft:jungle_wood;64
+Обтёсанное бревно джунглевого дерева;Stripped Jungle Log;minecraft:stripped_jungle_log;64
+Обтёсанная древесина джунглевого дерева;Stripped Jungle Wood;minecraft:stripped_jungle_wood;64
+Доски из джунглевого дерева;Jungle Planks;minecraft:jungle_planks;64
+Ступеньки из джунглевого дерева;Jungle Stairs;minecraft:jungle_stairs;64
+Плита из джунглевого дерева;Jungle Slab;minecraft:jungle_slab;64
+Забор из джунглевого дерева;Jungle Fence;minecraft:jungle_fence;64
+Ворота из джунглевого дерева;Jungle Fence Gate;minecraft:jungle_fence_gate;64
+Дверь из джунглевого дерева;Jungle Door;minecraft:jungle_door;64
+Люк из джунглевого дерева;Jungle Trapdoor;minecraft:jungle_trapdoor;64
+нажимная пластина из джунглевого дерева;Jungle Pressure Plate;minecraft:jungle_pressure_plate;64
+Кнопка из джунглевого дерева;Jungle Button;minecraft:jungle_button;64
+Полка из джунглевого дерева;Jungle Shelf;minecraft:jungle_shelf;64
+Акациевое бревно;Acacia Log;minecraft:acacia_log;64
+Акациевая древесина;Acacia Wood;minecraft:acacia_wood;64
+Обтёсанное акациевое бревно;Stripped Acacia Log;minecraft:stripped_acacia_log;64
+Обтёсанная акациевая древесина;Stripped Acacia Wood;minecraft:stripped_acacia_wood;64
+Акациевые доски;Acacia Planks;minecraft:acacia_planks;64
+Акациевые ступеньки;Acacia Stairs;minecraft:acacia_stairs;64
+Акациевая плита;Acacia Slab;minecraft:acacia_slab;64
+Акациевый забор;Acacia Fence;minecraft:acacia_fence;64
+Акациевые ворота;Acacia Fence Gate;minecraft:acacia_fence_gate;64
+Акациевая дверь;Acacia Door;minecraft:acacia_door;64
+Акациевый люк;Acacia Trapdoor;minecraft:acacia_trapdoor;64
+Акациевая нажимная пластина;Acacia Pressure Plate;minecraft:acacia_pressure_plate;64
+Акациевая кнопка;Acacia Button;minecraft:acacia_button;64
+Акациевая полка;Acacia Shelf;minecraft:acacia_shelf;64
+Бревно тёмного дуба;Dark Oak Log;minecraft:dark_oak_log;64
+Древесина тёмного дуба;Dark Oak Wood;minecraft:dark_oak_wood;64
+Обтёсанное бревно тёмного дуба;Stripped Dark Oak Log;minecraft:stripped_dark_oak_log;64
+Обтёсанная древесина тёмного дуба;Stripped Dark Oak Wood;minecraft:stripped_dark_oak_wood;64
+Доски из тёмного дуба;Dark Oak Planks;minecraft:dark_oak_planks;64
+Ступеньки из тёмного дуба;Dark Oak Stairs;minecraft:dark_oak_stairs;64
+Плита из тёмного дуба;Dark Oak Slab;minecraft:dark_oak_slab;64
+Забор из тёмного дуба;Dark Oak Fence;minecraft:dark_oak_fence;64
+Ворота из тёмного дуба;Dark Oak Fence Gate;minecraft:dark_oak_fence_gate;64
+Дверь из тёмного дуба;Dark Oak Door;minecraft:dark_oak_door;64
+Люк из тёмного дуба;Dark Oak Trapdoor;minecraft:dark_oak_trapdoor;64
+нажимная пластина из тёмного дуба;Dark Oak Pressure Plate;minecraft:dark_oak_pressure_plate;64
+Кнопка из тёмного дуба;Dark Oak Button;minecraft:dark_oak_button;64
+Полка из тёмного дуба;Dark Oak Shelf;minecraft:dark_oak_shelf;64
+Мангровое бревно;Mangrove Log;minecraft:mangrove_log;64
+Мангровая древесина;Mangrove Wood;minecraft:mangrove_wood;64
+Обтёсанное мангровое бревно;Stripped Mangrove Log;minecraft:stripped_mangrove_log;64
+Обтёсанная мангровая древесина;Stripped Mangrove Wood;minecraft:stripped_mangrove_wood;64
+Мангровые доски;Mangrove Planks;minecraft:mangrove_planks;64
+Мангровые ступеньки;Mangrove Stairs;minecraft:mangrove_stairs;64
+Мангровая плита;Mangrove Slab;minecraft:mangrove_slab;64
+Мангровый забор;Mangrove Fence;minecraft:mangrove_fence;64
+Мангровые ворота;Mangrove Fence Gate;minecraft:mangrove_fence_gate;64
+Мангровая дверь;Mangrove Door;minecraft:mangrove_door;64
+Мангровый люк;Mangrove Trapdoor;minecraft:mangrove_trapdoor;64
+Мангровая нажимная пластина;Mangrove Pressure Plate;minecraft:mangrove_pressure_plate;64
+Мангровая кнопка;Mangrove Button;minecraft:mangrove_button;64
+Мангровая полка;Mangrove Shelf;minecraft:mangrove_shelf;64
+Вишнёвое бревно;Cherry Log;minecraft:cherry_log;64
+Вишнёвая древесина;Cherry Wood;minecraft:cherry_wood;64
+Обтёсанное вишнёвое бревно;Stripped Cherry Log;minecraft:stripped_cherry_log;64
+Обтёсанная вишнёвая древесина;Stripped Cherry Wood;minecraft:stripped_cherry_wood;64
+Вишнёвые доски;Cherry Planks;minecraft:cherry_planks;64
+Вишнёвые ступеньки;Cherry Stairs;minecraft:cherry_stairs;64
+Вишнёвая плита;Cherry Slab;minecraft:cherry_slab;64
+Вишнёвый забор;Cherry Fence;minecraft:cherry_fence;64
+Вишнёвые ворота;Cherry Fence Gate;minecraft:cherry_fence_gate;64
+Вишнёвая дверь;Cherry Door;minecraft:cherry_door;64
+Вишнёвый люк;Cherry Trapdoor;minecraft:cherry_trapdoor;64
+Вишнёвая нажимная пластина;Cherry Pressure Plate;minecraft:cherry_pressure_plate;64
+Вишнёвая кнопка;Cherry Button;minecraft:cherry_button;64
+Вишнёвая полка;Cherry Shelf;minecraft:cherry_shelf;64
+Бревно бледного дуба;Pale Oak Log;minecraft:pale_oak_log;64
+Древесина бледного дуба;Pale Oak Wood;minecraft:pale_oak_wood;64
+Обтёсанное бревно бледного дуба;Stripped Pale Oak Log;minecraft:stripped_pale_oak_log;64
+Обтёсанная древесина бледного дуба;Stripped Pale Oak Wood;minecraft:stripped_pale_oak_wood;64
+Доски из бледного дуба;Pale Oak Planks;minecraft:pale_oak_planks;64
+Ступеньки из бледного дуба;Pale Oak Stairs;minecraft:pale_oak_stairs;64
+Плита из бледного дуба;Pale Oak Slab;minecraft:pale_oak_slab;64
+Забор из бледного дуба;Pale Oak Fence;minecraft:pale_oak_fence;64
+Ворота из бледного дуба;Pale Oak Fence Gate;minecraft:pale_oak_fence_gate;64
+Дверь из бледного дуба;Pale Oak Door;minecraft:pale_oak_door;64
+Люк из бледного дуба;Pale Oak Trapdoor;minecraft:pale_oak_trapdoor;64
+нажимная пластина из бледного дуба;Pale Oak Pressure Plate;minecraft:pale_oak_pressure_plate;64
+Кнопка из бледного дуба;Pale Oak Button;minecraft:pale_oak_button;64
+Полка из бледного дуба;Pale Oak Shelf;minecraft:pale_oak_shelf;64
+Блок бамбука;Block of Bamboo;minecraft:bamboo_block;64
+Блок обтёсанного бамбука;Block of Stripped Bamboo;minecraft:stripped_bamboo_block;64
+Бамбуковые доски;Bamboo Planks;minecraft:bamboo_planks;64
+Бамбуковая мозаика;Bamboo Mosaic;minecraft:bamboo_mosaic;64
+Бамбуковые ступеньки;Bamboo Stairs;minecraft:bamboo_stairs;64
+Ступеньки из бамбуковой мозаики;Bamboo Mosaic Stairs;minecraft:bamboo_mosaic_stairs;64
+Бамбуковая плита;Bamboo Slab;minecraft:bamboo_slab;64
+Плита из бамбуковой мозаики;Bamboo Mosaic Slab;minecraft:bamboo_mosaic_slab;64
+Бамбуковый забор;Bamboo Fence;minecraft:bamboo_fence;64
+Бамбуковые ворота;Bamboo Fence Gate;minecraft:bamboo_fence_gate;64
+Бамбуковая дверь;Bamboo Door;minecraft:bamboo_door;64
+Бамбуковый люк;Bamboo Trapdoor;minecraft:bamboo_trapdoor;64
+Бамбуковая нажимная пластина;Bamboo Pressure Plate;minecraft:bamboo_pressure_plate;64
+Бамбуковая кнопка;Bamboo Button;minecraft:bamboo_button;64
+Бамбуковая полка;Bamboo Shelf;minecraft:bamboo_shelf;64
+Багровая ножка;Crimson Stem;minecraft:crimson_stem;64
+Багровые гифы;Crimson Hyphae;minecraft:crimson_hyphae;64
+Очищенная багровая ножка;Stripped Crimson Stem;minecraft:stripped_crimson_stem;64
+Очищенные багровые гифы;Stripped Crimson Hyphae;minecraft:stripped_crimson_hyphae;64
+Багровые доски;Crimson Planks;minecraft:crimson_planks;64
+Багровые ступеньки;Crimson Stairs;minecraft:crimson_stairs;64
+Багровая плита;Crimson Slab;minecraft:crimson_slab;64
+Багровый забор;Crimson Fence;minecraft:crimson_fence;64
+Багровые ворота;Crimson Fence Gate;minecraft:crimson_fence_gate;64
+Багровая дверь;Crimson Door;minecraft:crimson_door;64
+Багровый люк;Crimson Trapdoor;minecraft:crimson_trapdoor;64
+Багровая нажимная пластина;Crimson Pressure Plate;minecraft:crimson_pressure_plate;64
+Багровая кнопка;Crimson Button;minecraft:crimson_button;64
+Багровая полка;Crimson Shelf;minecraft:crimson_shelf;64
+Искажённая ножка;Warped Stem;minecraft:warped_stem;64
+Искажённые гифы;Warped Hyphae;minecraft:warped_hyphae;64
+Очищенная искажённая ножка;Stripped Warped Stem;minecraft:stripped_warped_stem;64
+Очищенные искажённые гифы;Stripped Warped Hyphae;minecraft:stripped_warped_hyphae;64
+Искажённые доски;Warped Planks;minecraft:warped_planks;64
+Искажённые ступеньки;Warped Stairs;minecraft:warped_stairs;64
+Искажённая плита;Warped Slab;minecraft:warped_slab;64
+Искажённый забор;Warped Fence;minecraft:warped_fence;64
+Искажённые ворота;Warped Fence Gate;minecraft:warped_fence_gate;64
+Искажённая дверь;Warped Door;minecraft:warped_door;64
+Искажённый люк;Warped Trapdoor;minecraft:warped_trapdoor;64
+Искажённая нажимная пластина;Warped Pressure Plate;minecraft:warped_pressure_plate;64
+Искажённая кнопка;Warped Button;minecraft:warped_button;64
+Искажённая полка;Warped Shelf;minecraft:warped_shelf;64
+Камень;Stone;minecraft:stone;64
+Каменные ступеньки;Stone Stairs;minecraft:stone_stairs;64
+Каменная плита;Stone Slab;minecraft:stone_slab;64
+Каменная нажимная пластина;Stone Pressure Plate;minecraft:stone_pressure_plate;64
+Каменная кнопка;Stone Button;minecraft:stone_button;64
+Булыжник;Cobblestone;minecraft:cobblestone;64
+Булыжные ступеньки;Cobblestone Stairs;minecraft:cobblestone_stairs;64
+Булыжная плита;Cobblestone Slab;minecraft:cobblestone_slab;64
+Булыжная ограда;Cobblestone Wall;minecraft:cobblestone_wall;64
+Замшелый булыжник;Mossy Cobblestone;minecraft:mossy_cobblestone;64
+Замшелые булыжные ступеньки;Mossy Cobblestone Stairs;minecraft:mossy_cobblestone_stairs;64
+Замшелая булыжная плита;Mossy Cobblestone Slab;minecraft:mossy_cobblestone_slab;64
+Замшелая булыжная ограда;Mossy Cobblestone Wall;minecraft:mossy_cobblestone_wall;64
+Гладкий камень;Smooth Stone;minecraft:smooth_stone;64
+Плита из гладкого камня;Smooth Stone Slab;minecraft:smooth_stone_slab;64
+Каменные кирпичи;Stone Bricks;minecraft:stone_bricks;64
+Потрескавшиеся каменные кирпичи;Cracked Stone Bricks;minecraft:cracked_stone_bricks;64
+Ступеньки из каменного кирпича;Stone Brick Stairs;minecraft:stone_brick_stairs;64
+Плита из каменного кирпича;Stone Brick Slab;minecraft:stone_brick_slab;64
+Ограда из каменного кирпича;Stone Brick Wall;minecraft:stone_brick_wall;64
+Резные каменные кирпичи;Chiseled Stone Bricks;minecraft:chiseled_stone_bricks;64
+Замшелые каменные кирпичи;Mossy Stone Bricks;minecraft:mossy_stone_bricks;64
+Ступеньки из замшелого каменного кирпича;Mossy Stone Brick Stairs;minecraft:mossy_stone_brick_stairs;64
+Плита из замшелого каменного кирпича;Mossy Stone Brick Slab;minecraft:mossy_stone_brick_slab;64
+Ограда из замшелого каменного кирпича;Mossy Stone Brick Wall;minecraft:mossy_stone_brick_wall;64
+Гранит;Granite;minecraft:granite;64
+Гранитные ступеньки;Granite Stairs;minecraft:granite_stairs;64
+Гранитная плита;Granite Slab;minecraft:granite_slab;64
+Гранитная ограда;Granite Wall;minecraft:granite_wall;64
+Полированный гранит;Polished Granite;minecraft:polished_granite;64
+Ступеньки из полированного гранита;Polished Granite Stairs;minecraft:polished_granite_stairs;64
+Плита из полированного гранита;Polished Granite Slab;minecraft:polished_granite_slab;64
+Диорит;Diorite;minecraft:diorite;64
+Диоритовые ступеньки;Diorite Stairs;minecraft:diorite_stairs;64
+Диоритовая плита;Diorite Slab;minecraft:diorite_slab;64
+Диоритовая ограда;Diorite Wall;minecraft:diorite_wall;64
+Полированный диорит;Polished Diorite;minecraft:polished_diorite;64
+Ступеньки из полированного диорита;Polished Diorite Stairs;minecraft:polished_diorite_stairs;64
+Плита из полированного диорита;Polished Diorite Slab;minecraft:polished_diorite_slab;64
+Андезит;Andesite;minecraft:andesite;64
+Андезитовые ступеньки;Andesite Stairs;minecraft:andesite_stairs;64
+Андезитовая плита;Andesite Slab;minecraft:andesite_slab;64
+Андезитовая ограда;Andesite Wall;minecraft:andesite_wall;64
+Полированный андезит;Polished Andesite;minecraft:polished_andesite;64
+Ступеньки из полированного андезита;Polished Andesite Stairs;minecraft:polished_andesite_stairs;64
+Плита из полированного андезита;Polished Andesite Slab;minecraft:polished_andesite_slab;64
+Глубинный сланец;Deepslate;minecraft:deepslate;64
+Колотый глубинный сланец;Cobbled Deepslate;minecraft:cobbled_deepslate;64
+Ступеньки из колотого глубинного сланца;Cobbled Deepslate Stairs;minecraft:cobbled_deepslate_stairs;64
+Плита из колотого глубинного сланца;Cobbled Deepslate Slab;minecraft:cobbled_deepslate_slab;64
+Ограда из колотого глубинного сланца;Cobbled Deepslate Wall;minecraft:cobbled_deepslate_wall;64
+Резной глубинный сланец;Chiseled Deepslate;minecraft:chiseled_deepslate;64
+Полированный глубинный сланец;Polished Deepslate;minecraft:polished_deepslate;64
+Ступеньки из полированного глубинного сланца;Polished Deepslate Stairs;minecraft:polished_deepslate_stairs;64
+Плита из полированного глубинного сланца;Polished Deepslate Slab;minecraft:polished_deepslate_slab;64
+Ограда из полированного глубинного сланца;Polished Deepslate Wall;minecraft:polished_deepslate_wall;64
+Глубинносланцевые кирпичи;Deepslate Bricks;minecraft:deepslate_bricks;64
+Потрескавшиеся глубинносланцевые кирпичи;Cracked Deepslate Bricks;minecraft:cracked_deepslate_bricks;64
+Ступеньки из глубинносланцевого кирпича;Deepslate Brick Stairs;minecraft:deepslate_brick_stairs;64
+Плита из глубинносланцевого кирпича;Deepslate Brick Slab;minecraft:deepslate_brick_slab;64
+Ограда из глубинносланцевого кирпича;Deepslate Brick Wall;minecraft:deepslate_brick_wall;64
+Глубинносланцевый плитняк;Deepslate Tiles;minecraft:deepslate_tiles;64
+Потрескавшийся глубинносланцевый плитняк;Cracked Deepslate Tiles;minecraft:cracked_deepslate_tiles;64
+Ступеньки из глубинносланцевого плитняка;Deepslate Tile Stairs;minecraft:deepslate_tile_stairs;64
+Плита из глубинносланцевого плитняка;Deepslate Tile Slab;minecraft:deepslate_tile_slab;64
+Ограда из глубинносланцевого плитняка;Deepslate Tile Wall;minecraft:deepslate_tile_wall;64
+Укреплённый глубинный сланец;Reinforced Deepslate;minecraft:reinforced_deepslate;64
+Туф;Tuff;minecraft:tuff;64
+Туфовые ступеньки;Tuff Stairs;minecraft:tuff_stairs;64
+Туфовая плита;Tuff Slab;minecraft:tuff_slab;64
+Туфовая ограда;Tuff Wall;minecraft:tuff_wall;64
+Резной туф;Chiseled Tuff;minecraft:chiseled_tuff;64
+Полированный туф;Polished Tuff;minecraft:polished_tuff;64
+Ступеньки из полированного туфа;Polished Tuff Stairs;minecraft:polished_tuff_stairs;64
+Плита из полированного туфа;Polished Tuff Slab;minecraft:polished_tuff_slab;64
+Ограда из полированного туфа;Polished Tuff Wall;minecraft:polished_tuff_wall;64
+Туфовые кирпичи;Tuff Bricks;minecraft:tuff_bricks;64
+Ступеньки из туфового кирпича;Tuff Brick Stairs;minecraft:tuff_brick_stairs;64
+Плита из туфового кирпича;Tuff Brick Slab;minecraft:tuff_brick_slab;64
+Ограда из туфового кирпича;Tuff Brick Wall;minecraft:tuff_brick_wall;64
+Резные туфовые кирпичи;Chiseled Tuff Bricks;minecraft:chiseled_tuff_bricks;64
+Кирпичи;Bricks;minecraft:bricks;64
+Кирпичные ступеньки;Brick Stairs;minecraft:brick_stairs;64
+Кирпичная плита;Brick Slab;minecraft:brick_slab;64
+Кирпичная ограда;Brick Wall;minecraft:brick_wall;64
+Плотная грязь;Packed Mud;minecraft:packed_mud;64
+Саманные кирпичи;Mud Bricks;minecraft:mud_bricks;64
+Саманные ступеньки;Mud Brick Stairs;minecraft:mud_brick_stairs;64
+Саманная плита;Mud Brick Slab;minecraft:mud_brick_slab;64
+Саманная ограда;Mud Brick Wall;minecraft:mud_brick_wall;64
+Смоляные кирпичи;Resin Bricks;minecraft:resin_bricks;64
+Ступеньки из смоляного кирпича;Resin Brick Stairs;minecraft:resin_brick_stairs;64
+Плита из смоляного кирпича;Resin Brick Slab;minecraft:resin_brick_slab;64
+Ограда из смоляного кирпича;Resin Brick Wall;minecraft:resin_brick_wall;64
+Резные смоляные кирпичи;Chiseled Resin Bricks;minecraft:chiseled_resin_bricks;64
+Песчаник;Sandstone;minecraft:sandstone;64
+Песчаниковые ступеньки;Sandstone Stairs;minecraft:sandstone_stairs;64
+Песчаниковая плита;Sandstone Slab;minecraft:sandstone_slab;64
+Песчаниковая ограда;Sandstone Wall;minecraft:sandstone_wall;64
+Резной песчаник;Chiseled Sandstone;minecraft:chiseled_sandstone;64
+Гладкий песчаник;Smooth Sandstone;minecraft:smooth_sandstone;64
+Ступеньки из гладкого песчаника;Smooth Sandstone Stairs;minecraft:smooth_sandstone_stairs;64
+Плита из гладкого песчаника;Smooth Sandstone Slab;minecraft:smooth_sandstone_slab;64
+Пиленый песчаник;Cut Sandstone;minecraft:cut_sandstone;64
+Плита из пиленого песчаника;Cut Sandstone Slab;minecraft:cut_sandstone_slab;64
+Красный песчаник;Red Sandstone;minecraft:red_sandstone;64
+Ступеньки из красного песчаника;Red Sandstone Stairs;minecraft:red_sandstone_stairs;64
+Плита из красного песчаника;Red Sandstone Slab;minecraft:red_sandstone_slab;64
+Ограда из красного песчаника;Red Sandstone Wall;minecraft:red_sandstone_wall;64
+Резной красный песчаник;Chiseled Red Sandstone;minecraft:chiseled_red_sandstone;64
+Гладкий красный песчаник;Smooth Red Sandstone;minecraft:smooth_red_sandstone;64
+Ступеньки из гладкого красного песчаника;Smooth Red Sandstone Stairs;minecraft:smooth_red_sandstone_stairs;64
+Плита из гладкого красного песчаника;Smooth Red Sandstone Slab;minecraft:smooth_red_sandstone_slab;64
+Пиленый красный песчаник;Cut Red Sandstone;minecraft:cut_red_sandstone;64
+Плита из пиленого красного песчаника;Cut Red Sandstone Slab;minecraft:cut_red_sandstone_slab;64
+Киноварь;Cinnabar;minecraft:cinnabar;64
+Киноварные ступени;Cinnabar Stairs;minecraft:cinnabar_stairs;64
+Киноварная плита;Cinnabar Slab;minecraft:cinnabar_slab;64
+Киноварная ограда;Cinnabar Wall;minecraft:cinnabar_wall;64
+Полированный киноварь;Polished Cinnabar;minecraft:polished_cinnabar;64
+Полированные киноварные ступени;Polished Cinnabar Stairs;minecraft:polished_cinnabar_stairs;64
+Полированная киноварная плита;Polished Cinnabar Slab;minecraft:polished_cinnabar_slab;64
+Полированная киноварная ограда;Polished Cinnabar Wall;minecraft:polished_cinnabar_wall;64
+Киноварные кирпичи;Cinnabar Bricks;minecraft:cinnabar_bricks;64
+Ступени из киноварного кирпича;Cinnabar Brick Stairs;minecraft:cinnabar_brick_stairs;64
+Плита из киноварного кирпича;Cinnabar Brick Slab;minecraft:cinnabar_brick_slab;64
+Ограда из киноварного кирпича;Cinnabar Brick Wall;minecraft:cinnabar_brick_wall;64
+Резной киноварь;Chiseled Cinnabar;minecraft:chiseled_cinnabar;64
+Сера;Sulfur;minecraft:sulfur;64
+Серные ступени;Sulfur Stairs;minecraft:sulfur_stairs;64
+Серная плита;Sulfur Slab;minecraft:sulfur_slab;64
+Серная ограда;Sulfur Wall;minecraft:sulfur_wall;64
+Полированная сера;Polished Sulfur;minecraft:polished_sulfur;64
+Полированные серные ступени;Polished Sulfur Stairs;minecraft:polished_sulfur_stairs;64
+Полированная серная плита;Polished Sulfur Slab;minecraft:polished_sulfur_slab;64
+Полированная серная ограда;Polished Sulfur Wall;minecraft:polished_sulfur_wall;64
+Серные кирпичи;Sulfur Bricks;minecraft:sulfur_bricks;64
+Ступени из серного кирпича;Sulfur Brick Stairs;minecraft:sulfur_brick_stairs;64
+Плита из серного кирпича;Sulfur Brick Slab;minecraft:sulfur_brick_slab;64
+Ограда из серного кирпича;Sulfur Brick Wall;minecraft:sulfur_brick_wall;64
+Резной серный блок;Chiseled Sulfur;minecraft:chiseled_sulfur;64
+Морской фонарь;Sea Lantern;minecraft:sea_lantern;64
+Призмарин;Prismarine;minecraft:prismarine;64
+Призмариновые ступеньки;Prismarine Stairs;minecraft:prismarine_stairs;64
+Призмариновая плита;Prismarine Slab;minecraft:prismarine_slab;64
+Призмариновая ограда;Prismarine Wall;minecraft:prismarine_wall;64
+Призмариновые кирпичи;Prismarine Bricks;minecraft:prismarine_bricks;64
+Ступеньки из призмаринового кирпича;Prismarine Brick Stairs;minecraft:prismarine_brick_stairs;64
+Плита из призмаринового кирпича;Prismarine Brick Slab;minecraft:prismarine_brick_slab;64
+Тёмный призмарин;Dark Prismarine;minecraft:dark_prismarine;64
+Ступеньки из тёмного призмарина;Dark Prismarine Stairs;minecraft:dark_prismarine_stairs;64
+Плита из тёмного призмарина;Dark Prismarine Slab;minecraft:dark_prismarine_slab;64
+Незерак;Netherrack;minecraft:netherrack;64
+Незерские кирпичи;Nether Bricks;minecraft:nether_bricks;64
+Потрескавшиеся незерские кирпичи;Cracked Nether Bricks;minecraft:cracked_nether_bricks;64
+Ступеньки из незерского кирпича;Nether Brick Stairs;minecraft:nether_brick_stairs;64
+Плита из незерского кирпича;Nether Brick Slab;minecraft:nether_brick_slab;64
+Ограда из незерского кирпича;Nether Brick Wall;minecraft:nether_brick_wall;64
+Забор из незерского кирпича;Nether Brick Fence;minecraft:nether_brick_fence;64
+Резные незерские кирпичи;Chiseled Nether Bricks;minecraft:chiseled_nether_bricks;64
+Красные незерские кирпичи;Red Nether Bricks;minecraft:red_nether_bricks;64
+Ступеньки из красного незерского кирпича;Red Nether Brick Stairs;minecraft:red_nether_brick_stairs;64
+Плита из красного незерского кирпича;Red Nether Brick Slab;minecraft:red_nether_brick_slab;64
+Ограда из красного незерского кирпича;Red Nether Brick Wall;minecraft:red_nether_brick_wall;64
+Базальт;Basalt;minecraft:basalt;64
+Гладкий базальт;Smooth Basalt;minecraft:smooth_basalt;64
+Полированный базальт;Polished Basalt;minecraft:polished_basalt;64
+Чернит;Blackstone;minecraft:blackstone;64
+Золочёный чернит;Gilded Blackstone;minecraft:gilded_blackstone;64
+Чернитные ступеньки;Blackstone Stairs;minecraft:blackstone_stairs;64
+Чернитная плита;Blackstone Slab;minecraft:blackstone_slab;64
+Чернитная ограда;Blackstone Wall;minecraft:blackstone_wall;64
+Резной полированный чернит;Chiseled Polished Blackstone;minecraft:chiseled_polished_blackstone;64
+Полированный чернит;Polished Blackstone;minecraft:polished_blackstone;64
+Ступеньки из полированного чернита;Polished Blackstone Stairs;minecraft:polished_blackstone_stairs;64
+Плита из полированного чернита;Polished Blackstone Slab;minecraft:polished_blackstone_slab;64
+Ограда из полированного чернита;Polished Blackstone Wall;minecraft:polished_blackstone_wall;64
+нажимная пластина из полированного чернита;Polished Blackstone Pressure Plate;minecraft:polished_blackstone_pressure_plate;64
+Кнопка из полированного чернита;Polished Blackstone Button;minecraft:polished_blackstone_button;64
+Полированно-чернитные кирпичи;Polished Blackstone Bricks;minecraft:polished_blackstone_bricks;64
+Потрескавшиеся полированно-чернитные кирпичи;Cracked Polished Blackstone Bricks;minecraft:cracked_polished_blackstone_bricks;64
+Ступеньки из полированно-чернитного кирпича;Polished Blackstone Brick Stairs;minecraft:polished_blackstone_brick_stairs;64
+Плита из полированно-чернитного кирпича;Polished Blackstone Brick Slab;minecraft:polished_blackstone_brick_slab;64
+Ограда из полированно-чернитного кирпича;Polished Blackstone Brick Wall;minecraft:polished_blackstone_brick_wall;64
+Эндерняк;End Stone;minecraft:end_stone;64
+Эндерняковые кирпичи;End Stone Bricks;minecraft:end_stone_bricks;64
+Ступеньки из эндернякового кирпича;End Stone Brick Stairs;minecraft:end_stone_brick_stairs;64
+Плита из эндернякового кирпича;End Stone Brick Slab;minecraft:end_stone_brick_slab;64
+Ограда из эндернякового кирпича;End Stone Brick Wall;minecraft:end_stone_brick_wall;64
+Пурпур;Purpur Block;minecraft:purpur_block;64
+Пурпуровый пилон;Purpur Pillar;minecraft:purpur_pillar;64
+Пурпуровые ступеньки;Purpur Stairs;minecraft:purpur_stairs;64
+Пурпуровая плита;Purpur Slab;minecraft:purpur_slab;64
+Угольный блок;Block of Coal;minecraft:coal_block;64
+Железный блок;Block of Iron;minecraft:iron_block;64
+Железные прутья;Iron Bars;minecraft:iron_bars;64
+Железная дверь;Iron Door;minecraft:iron_door;64
+Железный люк;Iron Trapdoor;minecraft:iron_trapdoor;64
+Большегрузная весовая пластина;Heavy Weighted Pressure Plate;minecraft:heavy_weighted_pressure_plate;64
+Железная цепь;Iron Chain;minecraft:iron_chain;64
+Золотой блок;Block of Gold;minecraft:gold_block;64
+Весовая пластина;Light Weighted Pressure Plate;minecraft:light_weighted_pressure_plate;64
+Редстоуновый блок;Block of Redstone;minecraft:redstone_block;64
+Изумрудный блок;Block of Emerald;minecraft:emerald_block;64
+Лазуритовый блок;Block of Lapis Lazuli;minecraft:lapis_block;64
+Алмазный блок;Block of Diamond;minecraft:diamond_block;64
+Незеритовый блок;Block of Netherite;minecraft:netherite_block;64
+Кварцевый блок;Block of Quartz;minecraft:quartz_block;64
+Кварцевые ступеньки;Quartz Stairs;minecraft:quartz_stairs;64
+Кварцевая плита;Quartz Slab;minecraft:quartz_slab;64
+Резной кварцевый блок;Chiseled Quartz Block;minecraft:chiseled_quartz_block;64
+Кварцевые кирпичи;Quartz Bricks;minecraft:quartz_bricks;64
+Кварцевая колонна;Quartz Pillar;minecraft:quartz_pillar;64
+Гладкий кварц;Smooth Quartz Block;minecraft:smooth_quartz;64
+Ступеньки из гладкого кварца;Smooth Quartz Stairs;minecraft:smooth_quartz_stairs;64
+Плита из гладкого кварца;Smooth Quartz Slab;minecraft:smooth_quartz_slab;64
+Аметистовый блок;Block of Amethyst;minecraft:amethyst_block;64
+Медный блок;Block of Copper;minecraft:copper_block;64
+Точёный медный блок;Chiseled Copper;minecraft:chiseled_copper;64
+Медная решётка;Copper Grate;minecraft:copper_grate;64
+Резной медный блок;Cut Copper;minecraft:cut_copper;64
+Резные медные ступеньки;Cut Copper Stairs;minecraft:cut_copper_stairs;64
+Резная медная плита;Cut Copper Slab;minecraft:cut_copper_slab;64
+Медная дверь;Copper Door;minecraft:copper_door;64
+Медный люк;Copper Trapdoor;minecraft:copper_trapdoor;64
+Медная лампа;Copper Bulb;minecraft:copper_bulb;64
+Медная цепь;Copper Chain;minecraft:copper_chain;64
+Медная решётка;Copper Bars;minecraft:copper_bars;64
+Громоотвод;Lightning Rod;minecraft:lightning_rod;64
+Статуя медного голема;Copper Golem Statue;minecraft:copper_golem_statue;64
+Потемневший медный блок;Exposed Copper;minecraft:exposed_copper;64
+Потемневший точёный медный блок;Exposed Chiseled Copper;minecraft:exposed_chiseled_copper;64
+Потемневшая медная решётка;Exposed Copper Grate;minecraft:exposed_copper_grate;64
+Потемневший резной медный блок;Exposed Cut Copper;minecraft:exposed_cut_copper;64
+Потемневшие резные медные ступеньки;Exposed Cut Copper Stairs;minecraft:exposed_cut_copper_stairs;64
+Потемневшая резная медная плита;Exposed Cut Copper Slab;minecraft:exposed_cut_copper_slab;64
+Потемневшая медная дверь;Exposed Copper Door;minecraft:exposed_copper_door;64
+Потемневший медный люк;Exposed Copper Trapdoor;minecraft:exposed_copper_trapdoor;64
+Потемневшая медная лампа;Exposed Copper Bulb;minecraft:exposed_copper_bulb;64
+Потемневшая медная цепь;Exposed Copper Chain;minecraft:exposed_copper_chain;64
+Потемневшая медная решётка;Exposed Copper Bars;minecraft:exposed_copper_bars;64
+Потемневший громоотвод;Exposed Lightning Rod;minecraft:exposed_lightning_rod;64
+Потемневшая статуя медного голема;Exposed Copper Golem Statue;minecraft:exposed_copper_golem_statue;64
+Состаренный медный блок;Weathered Copper;minecraft:weathered_copper;64
+Состаренный точёный медный блок;Weathered Chiseled Copper;minecraft:weathered_chiseled_copper;64
+Состаренная медная решётка;Weathered Copper Grate;minecraft:weathered_copper_grate;64
+Состаренный резной медный блок;Weathered Cut Copper;minecraft:weathered_cut_copper;64
+Состаренные резные медные ступеньки;Weathered Cut Copper Stairs;minecraft:weathered_cut_copper_stairs;64
+Состаренная резная медная плита;Weathered Cut Copper Slab;minecraft:weathered_cut_copper_slab;64
+Состаренная медная дверь;Weathered Copper Door;minecraft:weathered_copper_door;64
+Состаренный медный люк;Weathered Copper Trapdoor;minecraft:weathered_copper_trapdoor;64
+Состаренная медная лампа;Weathered Copper Bulb;minecraft:weathered_copper_bulb;64
+Состаренная медная цепь;Weathered Copper Chain;minecraft:weathered_copper_chain;64
+Состаренная медная решётка;Weathered Copper Bars;minecraft:weathered_copper_bars;64
+Состаренный громоотвод;Weathered Lightning Rod;minecraft:weathered_lightning_rod;64
+Состаренная статуя медного голема;Weathered Copper Golem Statue;minecraft:weathered_copper_golem_statue;64
+Окисленный медный блок;Oxidized Copper;minecraft:oxidized_copper;64
+Окисленный точёный медный блок;Oxidized Chiseled Copper;minecraft:oxidized_chiseled_copper;64
+Окисленная медная решётка;Oxidized Copper Grate;minecraft:oxidized_copper_grate;64
+Окисленный резной медный блок;Oxidized Cut Copper;minecraft:oxidized_cut_copper;64
+Окисленные резные медные ступеньки;Oxidized Cut Copper Stairs;minecraft:oxidized_cut_copper_stairs;64
+Окисленная резная медная плита;Oxidized Cut Copper Slab;minecraft:oxidized_cut_copper_slab;64
+Окисленная медная дверь;Oxidized Copper Door;minecraft:oxidized_copper_door;64
+Окисленный медный люк;Oxidized Copper Trapdoor;minecraft:oxidized_copper_trapdoor;64
+Окисленная медная лампа;Oxidized Copper Bulb;minecraft:oxidized_copper_bulb;64
+Окисленная медная цепь;Oxidized Copper Chain;minecraft:oxidized_copper_chain;64
+Окисленная медная решётка;Oxidized Copper Bars;minecraft:oxidized_copper_bars;64
+Окисленный громоотвод;Oxidized Lightning Rod;minecraft:oxidized_lightning_rod;64
+Окисленная статуя медного голема;Oxidized Copper Golem Statue;minecraft:oxidized_copper_golem_statue;64
+Вощёный медный блок;Waxed Block of Copper;minecraft:waxed_copper_block;64
+Вощёный точёный медный блок;Waxed Chiseled Copper;minecraft:waxed_chiseled_copper;64
+Вощёная медная решётка;Waxed Copper Grate;minecraft:waxed_copper_grate;64
+Вощёный резной медный блок;Waxed Cut Copper;minecraft:waxed_cut_copper;64
+Вощёные резные медные ступеньки;Waxed Cut Copper Stairs;minecraft:waxed_cut_copper_stairs;64
+Вощёная резная медная плита;Waxed Cut Copper Slab;minecraft:waxed_cut_copper_slab;64
+Вощёная медная дверь;Waxed Copper Door;minecraft:waxed_copper_door;64
+Вощёный медный люк;Waxed Copper Trapdoor;minecraft:waxed_copper_trapdoor;64
+Вощёная медная лампа;Waxed Copper Bulb;minecraft:waxed_copper_bulb;64
+Вощёная медная цепь;Waxed Copper Chain;minecraft:waxed_copper_chain;64
+Вощёная медная решётка;Waxed Copper Bars;minecraft:waxed_copper_bars;64
+Вощёный громоотвод;Waxed Lightning Rod;minecraft:waxed_lightning_rod;64
+Вощёная статуя медного голема;Waxed Copper Golem Statue;minecraft:waxed_copper_golem_statue;64
+Вощёный потемневший медный блок;Waxed Exposed Copper;minecraft:waxed_exposed_copper;64
+Вощёный потемневший точёный медный блок;Waxed Exposed Chiseled Copper;minecraft:waxed_exposed_chiseled_copper;64
+Вощёная потемневшая медная решётка;Waxed Exposed Copper Grate;minecraft:waxed_exposed_copper_grate;64
+Вощёный потемневший резной медный блок;Waxed Exposed Cut Copper;minecraft:waxed_exposed_cut_copper;64
+Вощёные потемневшие резные медные ступеньки;Waxed Exposed Cut Copper Stairs;minecraft:waxed_exposed_cut_copper_stairs;64
+Вощёная потемневшая резная медная плита;Waxed Exposed Cut Copper Slab;minecraft:waxed_exposed_cut_copper_slab;64
+Вощёная потемневшая медная дверь;Waxed Exposed Copper Door;minecraft:waxed_exposed_copper_door;64
+Вощёный потемневший медный люк;Waxed Exposed Copper Trapdoor;minecraft:waxed_exposed_copper_trapdoor;64
+Вощёная потемневшая медная лампа;Waxed Exposed Copper Bulb;minecraft:waxed_exposed_copper_bulb;64
+Вощёная потемневшая медная цепь;Waxed Exposed Copper Chain;minecraft:waxed_exposed_copper_chain;64
+Вощёная потемневшая медная решётка;Waxed Exposed Copper Bars;minecraft:waxed_exposed_copper_bars;64
+Вощёный потемневший громоотвод;Waxed Exposed Lightning Rod;minecraft:waxed_exposed_lightning_rod;64
+Вощёная потемневшая статуя медного голема;Waxed Exposed Copper Golem Statue;minecraft:waxed_exposed_copper_golem_statue;64
+Вощёный состаренный медный блок;Waxed Weathered Copper;minecraft:waxed_weathered_copper;64
+Вощёный состаренный точёный медный блок;Waxed Weathered Chiseled Copper;minecraft:waxed_weathered_chiseled_copper;64
+Вощёная состаренная медная решётка;Waxed Weathered Copper Grate;minecraft:waxed_weathered_copper_grate;64
+Вощёный состаренный резной медный блок;Waxed Weathered Cut Copper;minecraft:waxed_weathered_cut_copper;64
+Вощёные состаренные резные медные ступеньки;Waxed Weathered Cut Copper Stairs;minecraft:waxed_weathered_cut_copper_stairs;64
+Вощёная состаренная резная медная плита;Waxed Weathered Cut Copper Slab;minecraft:waxed_weathered_cut_copper_slab;64
+Вощёная состаренная медная дверь;Waxed Weathered Copper Door;minecraft:waxed_weathered_copper_door;64
+Вощёный состаренный медный люк;Waxed Weathered Copper Trapdoor;minecraft:waxed_weathered_copper_trapdoor;64
+Вощёная состаренная медная лампа;Waxed Weathered Copper Bulb;minecraft:waxed_weathered_copper_bulb;64
+Вощёная состаренная медная цепь;Waxed Weathered Copper Chain;minecraft:waxed_weathered_copper_chain;64
+Вощёная состаренная медная решётка;Waxed Weathered Copper Bars;minecraft:waxed_weathered_copper_bars;64
+Вощёный состаренный громоотвод;Waxed Weathered Lightning Rod;minecraft:waxed_weathered_lightning_rod;64
+Вощёная состаренная статуя медного голема;Waxed Weathered Copper Golem Statue;minecraft:waxed_weathered_copper_golem_statue;64
+Вощёный окисленный медный блок;Waxed Oxidized Copper;minecraft:waxed_oxidized_copper;64
+Вощёный окисленный точёный медный блок;Waxed Oxidized Chiseled Copper;minecraft:waxed_oxidized_chiseled_copper;64
+Вощёная окисленная медная решётка;Waxed Oxidized Copper Grate;minecraft:waxed_oxidized_copper_grate;64
+Вощёный окисленный резной медный блок;Waxed Oxidized Cut Copper;minecraft:waxed_oxidized_cut_copper;64
+Вощёные окисленные резные медные ступеньки;Waxed Oxidized Cut Copper Stairs;minecraft:waxed_oxidized_cut_copper_stairs;64
+Вощёная окисленная резная медная плита;Waxed Oxidized Cut Copper Slab;minecraft:waxed_oxidized_cut_copper_slab;64
+Вощёная окисленная медная дверь;Waxed Oxidized Copper Door;minecraft:waxed_oxidized_copper_door;64
+Вощёный окисленный медный люк;Waxed Oxidized Copper Trapdoor;minecraft:waxed_oxidized_copper_trapdoor;64
+Вощёная окисленная медная цепь;Waxed Oxidized Copper Chain;minecraft:waxed_oxidized_copper_chain;64
+Вощёная окисленная медная решётка;Waxed Oxidized Copper Bars;minecraft:waxed_oxidized_copper_bars;64
+Вощёная окисленная медная лампа;Waxed Oxidized Copper Bulb;minecraft:waxed_oxidized_copper_bulb;64
+Вощёный окисленный громоотвод;Waxed Oxidized Lightning Rod;minecraft:waxed_oxidized_lightning_rod;64
+Вощёная окисленная статуя медного голема;Waxed Oxidized Copper Golem Statue;minecraft:waxed_oxidized_copper_golem_statue;64
+Белая шерсть;White Wool;minecraft:white_wool;64
+Светло-серая шерсть;Light Gray Wool;minecraft:light_gray_wool;64
+Серая шерсть;Gray Wool;minecraft:gray_wool;64
+Чёрная шерсть;Black Wool;minecraft:black_wool;64
+Коричневая шерсть;Brown Wool;minecraft:brown_wool;64
+Красная шерсть;Red Wool;minecraft:red_wool;64
+Оранжевая шерсть;Orange Wool;minecraft:orange_wool;64
+Жёлтая шерсть;Yellow Wool;minecraft:yellow_wool;64
+Лаймовая шерсть;Lime Wool;minecraft:lime_wool;64
+Зелёная шерсть;Green Wool;minecraft:green_wool;64
+Бирюзовая шерсть;Cyan Wool;minecraft:cyan_wool;64
+Голубая шерсть;Light Blue Wool;minecraft:light_blue_wool;64
+Синяя шерсть;Blue Wool;minecraft:blue_wool;64
+Фиолетовая шерсть;Purple Wool;minecraft:purple_wool;64
+Пурпурная шерсть;Magenta Wool;minecraft:magenta_wool;64
+Розовая шерсть;Pink Wool;minecraft:pink_wool;64
+Белый ковёр;White Carpet;minecraft:white_carpet;64
+Светло-серый ковёр;Light Gray Carpet;minecraft:light_gray_carpet;64
+Серый ковёр;Gray Carpet;minecraft:gray_carpet;64
+Чёрный ковёр;Black Carpet;minecraft:black_carpet;64
+Коричневый ковёр;Brown Carpet;minecraft:brown_carpet;64
+Красный ковёр;Red Carpet;minecraft:red_carpet;64
+Оранжевый ковёр;Orange Carpet;minecraft:orange_carpet;64
+Жёлтый ковёр;Yellow Carpet;minecraft:yellow_carpet;64
+Лаймовый ковёр;Lime Carpet;minecraft:lime_carpet;64
+Зелёный ковёр;Green Carpet;minecraft:green_carpet;64
+Бирюзовый ковёр;Cyan Carpet;minecraft:cyan_carpet;64
+Голубой ковёр;Light Blue Carpet;minecraft:light_blue_carpet;64
+Синий ковёр;Blue Carpet;minecraft:blue_carpet;64
+Фиолетовый ковёр;Purple Carpet;minecraft:purple_carpet;64
+Пурпурный ковёр;Magenta Carpet;minecraft:magenta_carpet;64
+Розовый ковёр;Pink Carpet;minecraft:pink_carpet;64
+Терракота;Terracotta;minecraft:terracotta;64
+Белая керамика;White Terracotta;minecraft:white_terracotta;64
+Светло-серая керамика;Light Gray Terracotta;minecraft:light_gray_terracotta;64
+Серая керамика;Gray Terracotta;minecraft:gray_terracotta;64
+Чёрная керамика;Black Terracotta;minecraft:black_terracotta;64
+Коричневая керамика;Brown Terracotta;minecraft:brown_terracotta;64
+Красная керамика;Red Terracotta;minecraft:red_terracotta;64
+Оранжевая керамика;Orange Terracotta;minecraft:orange_terracotta;64
+Жёлтая керамика;Yellow Terracotta;minecraft:yellow_terracotta;64
+Лаймовая керамика;Lime Terracotta;minecraft:lime_terracotta;64
+Зелёная керамика;Green Terracotta;minecraft:green_terracotta;64
+Бирюзовая керамика;Cyan Terracotta;minecraft:cyan_terracotta;64
+Голубая керамика;Light Blue Terracotta;minecraft:light_blue_terracotta;64
+Синяя керамика;Blue Terracotta;minecraft:blue_terracotta;64
+Фиолетовая керамика;Purple Terracotta;minecraft:purple_terracotta;64
+Пурпурная керамика;Magenta Terracotta;minecraft:magenta_terracotta;64
+Розовая керамика;Pink Terracotta;minecraft:pink_terracotta;64
+Белый бетон;White Concrete;minecraft:white_concrete;64
+Светло-серый бетон;Light Gray Concrete;minecraft:light_gray_concrete;64
+Серый бетон;Gray Concrete;minecraft:gray_concrete;64
+Чёрный бетон;Black Concrete;minecraft:black_concrete;64
+Коричневый бетон;Brown Concrete;minecraft:brown_concrete;64
+Красный бетон;Red Concrete;minecraft:red_concrete;64
+Оранжевый бетон;Orange Concrete;minecraft:orange_concrete;64
+Жёлтый бетон;Yellow Concrete;minecraft:yellow_concrete;64
+Лаймовый бетон;Lime Concrete;minecraft:lime_concrete;64
+Зелёный бетон;Green Concrete;minecraft:green_concrete;64
+Бирюзовый бетон;Cyan Concrete;minecraft:cyan_concrete;64
+Голубой бетон;Light Blue Concrete;minecraft:light_blue_concrete;64
+Синий бетон;Blue Concrete;minecraft:blue_concrete;64
+Фиолетовый бетон;Purple Concrete;minecraft:purple_concrete;64
+Пурпурный бетон;Magenta Concrete;minecraft:magenta_concrete;64
+Розовый бетон;Pink Concrete;minecraft:pink_concrete;64
+Белый сухой бетон;White Concrete Powder;minecraft:white_concrete_powder;64
+Светло-серый сухой бетон;Light Gray Concrete Powder;minecraft:light_gray_concrete_powder;64
+Серый сухой бетон;Gray Concrete Powder;minecraft:gray_concrete_powder;64
+Чёрный сухой бетон;Black Concrete Powder;minecraft:black_concrete_powder;64
+Коричневый сухой бетон;Brown Concrete Powder;minecraft:brown_concrete_powder;64
+Красный сухой бетон;Red Concrete Powder;minecraft:red_concrete_powder;64
+Оранжевый сухой бетон;Orange Concrete Powder;minecraft:orange_concrete_powder;64
+Жёлтый сухой бетон;Yellow Concrete Powder;minecraft:yellow_concrete_powder;64
+Лаймовый сухой бетон;Lime Concrete Powder;minecraft:lime_concrete_powder;64
+Зелёный сухой бетон;Green Concrete Powder;minecraft:green_concrete_powder;64
+Бирюзовый сухой бетон;Cyan Concrete Powder;minecraft:cyan_concrete_powder;64
+Голубой сухой бетон;Light Blue Concrete Powder;minecraft:light_blue_concrete_powder;64
+Синий сухой бетон;Blue Concrete Powder;minecraft:blue_concrete_powder;64
+Фиолетовый сухой бетон;Purple Concrete Powder;minecraft:purple_concrete_powder;64
+Пурпурный сухой бетон;Magenta Concrete Powder;minecraft:magenta_concrete_powder;64
+Розовый сухой бетон;Pink Concrete Powder;minecraft:pink_concrete_powder;64
+Белая глазурованная керамика;White Glazed Terracotta;minecraft:white_glazed_terracotta;64
+Светло-серая глазурованная керамика;Light Gray Glazed Terracotta;minecraft:light_gray_glazed_terracotta;64
+Серая глазурованная керамика;Gray Glazed Terracotta;minecraft:gray_glazed_terracotta;64
+Чёрная глазурованная керамика;Black Glazed Terracotta;minecraft:black_glazed_terracotta;64
+Коричневая глазурованная керамика;Brown Glazed Terracotta;minecraft:brown_glazed_terracotta;64
+Красная глазурованная керамика;Red Glazed Terracotta;minecraft:red_glazed_terracotta;64
+Оранжевая глазурованная керамика;Orange Glazed Terracotta;minecraft:orange_glazed_terracotta;64
+Жёлтая глазурованная керамика;Yellow Glazed Terracotta;minecraft:yellow_glazed_terracotta;64
+Лаймовая глазурованная керамика;Lime Glazed Terracotta;minecraft:lime_glazed_terracotta;64
+Зелёная глазурованная керамика;Green Glazed Terracotta;minecraft:green_glazed_terracotta;64
+Бирюзовая глазурованная керамика;Cyan Glazed Terracotta;minecraft:cyan_glazed_terracotta;64
+Голубая глазурованная керамика;Light Blue Glazed Terracotta;minecraft:light_blue_glazed_terracotta;64
+Синяя глазурованная керамика;Blue Glazed Terracotta;minecraft:blue_glazed_terracotta;64
+Фиолетовая глазурованная керамика;Purple Glazed Terracotta;minecraft:purple_glazed_terracotta;64
+Пурпурная глазурованная керамика;Magenta Glazed Terracotta;minecraft:magenta_glazed_terracotta;64
+Розовая глазурованная керамика;Pink Glazed Terracotta;minecraft:pink_glazed_terracotta;64
+Стекло;Glass;minecraft:glass;64
+Тонированное стекло;Tinted Glass;minecraft:tinted_glass;64
+Белое стекло;White Stained Glass;minecraft:white_stained_glass;64
+Светло-серое стекло;Light Gray Stained Glass;minecraft:light_gray_stained_glass;64
+Серое стекло;Gray Stained Glass;minecraft:gray_stained_glass;64
+Чёрное стекло;Black Stained Glass;minecraft:black_stained_glass;64
+Коричневое стекло;Brown Stained Glass;minecraft:brown_stained_glass;64
+Красное стекло;Red Stained Glass;minecraft:red_stained_glass;64
+Оранжевое стекло;Orange Stained Glass;minecraft:orange_stained_glass;64
+Жёлтое стекло;Yellow Stained Glass;minecraft:yellow_stained_glass;64
+Лаймовое стекло;Lime Stained Glass;minecraft:lime_stained_glass;64
+Зелёное стекло;Green Stained Glass;minecraft:green_stained_glass;64
+Бирюзовое стекло;Cyan Stained Glass;minecraft:cyan_stained_glass;64
+Голубое стекло;Light Blue Stained Glass;minecraft:light_blue_stained_glass;64
+Синее стекло;Blue Stained Glass;minecraft:blue_stained_glass;64
+Фиолетовое стекло;Purple Stained Glass;minecraft:purple_stained_glass;64
+Пурпурное стекло;Magenta Stained Glass;minecraft:magenta_stained_glass;64
+Розовое стекло;Pink Stained Glass;minecraft:pink_stained_glass;64
+Стеклянная панель;Glass Pane;minecraft:glass_pane;64
+Белая стеклянная панель;White Stained Glass Pane;minecraft:white_stained_glass_pane;64
+Светло-серая стеклянная панель;Light Gray Stained Glass Pane;minecraft:light_gray_stained_glass_pane;64
+Серая стеклянная панель;Gray Stained Glass Pane;minecraft:gray_stained_glass_pane;64
+Чёрная стеклянная панель;Black Stained Glass Pane;minecraft:black_stained_glass_pane;64
+Коричневая стеклянная панель;Brown Stained Glass Pane;minecraft:brown_stained_glass_pane;64
+Красная стеклянная панель;Red Stained Glass Pane;minecraft:red_stained_glass_pane;64
+Оранжевая стеклянная панель;Orange Stained Glass Pane;minecraft:orange_stained_glass_pane;64
+Жёлтая стеклянная панель;Yellow Stained Glass Pane;minecraft:yellow_stained_glass_pane;64
+Лаймовая стеклянная панель;Lime Stained Glass Pane;minecraft:lime_stained_glass_pane;64
+Зелёная стеклянная панель;Green Stained Glass Pane;minecraft:green_stained_glass_pane;64
+Бирюзовая стеклянная панель;Cyan Stained Glass Pane;minecraft:cyan_stained_glass_pane;64
+Голубая стеклянная панель;Light Blue Stained Glass Pane;minecraft:light_blue_stained_glass_pane;64
+Синяя стеклянная панель;Blue Stained Glass Pane;minecraft:blue_stained_glass_pane;64
+Фиолетовая стеклянная панель;Purple Stained Glass Pane;minecraft:purple_stained_glass_pane;64
+Пурпурная стеклянная панель;Magenta Stained Glass Pane;minecraft:magenta_stained_glass_pane;64
+Розовая стеклянная панель;Pink Stained Glass Pane;minecraft:pink_stained_glass_pane;64
+Шалкеровый ящик;Shulker Box;minecraft:shulker_box;64
+Белый шалкеровый ящик;White Shulker Box;minecraft:white_shulker_box;64
+Светло-серый шалкеровый ящик;Light Gray Shulker Box;minecraft:light_gray_shulker_box;64
+Серый шалкеровый ящик;Gray Shulker Box;minecraft:gray_shulker_box;64
+Чёрный шалкеровый ящик;Black Shulker Box;minecraft:black_shulker_box;64
+Коричневый шалкеровый ящик;Brown Shulker Box;minecraft:brown_shulker_box;64
+Красный шалкеровый ящик;Red Shulker Box;minecraft:red_shulker_box;64
+Оранжевый шалкеровый ящик;Orange Shulker Box;minecraft:orange_shulker_box;64
+Жёлтый шалкеровый ящик;Yellow Shulker Box;minecraft:yellow_shulker_box;64
+Лаймовый шалкеровый ящик;Lime Shulker Box;minecraft:lime_shulker_box;64
+Зелёный шалкеровый ящик;Green Shulker Box;minecraft:green_shulker_box;64
+Бирюзовый шалкеровый ящик;Cyan Shulker Box;minecraft:cyan_shulker_box;64
+Голубой шалкеровый ящик;Light Blue Shulker Box;minecraft:light_blue_shulker_box;64
+Синий шалкеровый ящик;Blue Shulker Box;minecraft:blue_shulker_box;64
+Фиолетовый шалкеровый ящик;Purple Shulker Box;minecraft:purple_shulker_box;64
+Пурпурный шалкеровый ящик;Magenta Shulker Box;minecraft:magenta_shulker_box;64
+Розовый шалкеровый ящик;Pink Shulker Box;minecraft:pink_shulker_box;64
+Белая кровать;White Bed;minecraft:white_bed;1
+Светло-серая кровать;Light Gray Bed;minecraft:light_gray_bed;1
+Серая кровать;Gray Bed;minecraft:gray_bed;1
+Чёрная кровать;Black Bed;minecraft:black_bed;1
+Коричневая кровать;Brown Bed;minecraft:brown_bed;1
+Красная кровать;Red Bed;minecraft:red_bed;1
+Оранжевая кровать;Orange Bed;minecraft:orange_bed;1
+Жёлтая кровать;Yellow Bed;minecraft:yellow_bed;1
+Лаймовая кровать;Lime Bed;minecraft:lime_bed;1
+Зелёная кровать;Green Bed;minecraft:green_bed;1
+Бирюзовая кровать;Cyan Bed;minecraft:cyan_bed;1
+Голубая кровать;Light Blue Bed;minecraft:light_blue_bed;1
+Синяя кровать;Blue Bed;minecraft:blue_bed;1
+Фиолетовая кровать;Purple Bed;minecraft:purple_bed;1
+Пурпурная кровать;Magenta Bed;minecraft:magenta_bed;1
+Розовая кровать;Pink Bed;minecraft:pink_bed;1
+Свеча;Candle;minecraft:candle;64
+Белая свеча;White Candle;minecraft:white_candle;64
+Светло-серая свеча;Light Gray Candle;minecraft:light_gray_candle;64
+Серая свеча;Gray Candle;minecraft:gray_candle;64
+Чёрная свеча;Black Candle;minecraft:black_candle;64
+Коричневая свеча;Brown Candle;minecraft:brown_candle;64
+Красная свеча;Red Candle;minecraft:red_candle;64
+Оранжевая свеча;Orange Candle;minecraft:orange_candle;64
+Жёлтая свеча;Yellow Candle;minecraft:yellow_candle;64
+Лаймовая свеча;Lime Candle;minecraft:lime_candle;64
+Зелёная свеча;Green Candle;minecraft:green_candle;64
+Бирюзовая свеча;Cyan Candle;minecraft:cyan_candle;64
+Голубая свеча;Light Blue Candle;minecraft:light_blue_candle;64
+Синяя свеча;Blue Candle;minecraft:blue_candle;64
+Фиолетовая свеча;Purple Candle;minecraft:purple_candle;64
+Пурпурная свеча;Magenta Candle;minecraft:magenta_candle;64
+Розовая свеча;Pink Candle;minecraft:pink_candle;64
+Белый флаг;White Banner;minecraft:white_banner;16
+Светло-серый флаг;Light Gray Banner;minecraft:light_gray_banner;16
+Серый флаг;Gray Banner;minecraft:gray_banner;16
+Чёрный флаг;Black Banner;minecraft:black_banner;16
+Коричневый флаг;Brown Banner;minecraft:brown_banner;16
+Красный флаг;Red Banner;minecraft:red_banner;16
+Оранжевый флаг;Orange Banner;minecraft:orange_banner;16
+Жёлтый флаг;Yellow Banner;minecraft:yellow_banner;16
+Лаймовый флаг;Lime Banner;minecraft:lime_banner;16
+Зелёный флаг;Green Banner;minecraft:green_banner;16
+Бирюзовый флаг;Cyan Banner;minecraft:cyan_banner;16
+Голубой флаг;Light Blue Banner;minecraft:light_blue_banner;16
+Синий флаг;Blue Banner;minecraft:blue_banner;16
+Фиолетовый флаг;Purple Banner;minecraft:purple_banner;16
+Пурпурный флаг;Magenta Banner;minecraft:magenta_banner;16
+Розовый флаг;Pink Banner;minecraft:pink_banner;16
+Редстоуновая пыль;Redstone Dust;minecraft:redstone;64
+Редстоуновый факел;Redstone Torch;minecraft:redstone_torch;64
+Редстоуновый повторитель;Redstone Repeater;minecraft:repeater;64
+Редстоуновый компаратор;Redstone Comparator;minecraft:comparator;64
+Мишень;Target;minecraft:target;64
+Рычаг;Lever;minecraft:lever;64
+Скалк-сенсор;Sculk Sensor;minecraft:sculk_sensor;64
+Откалиброванный скалк-сенсор;Calibrated Sculk Sensor;minecraft:calibrated_sculk_sensor;64
+Скалковый крикун;Sculk Shrieker;minecraft:sculk_shrieker;64
+Крюк;Tripwire Hook;minecraft:tripwire_hook;64
+Нить;String;minecraft:string;64
+Кафедра;Lectern;minecraft:lectern;64
+Датчик дневного света;Daylight Detector;minecraft:daylight_detector;64
+Липкий поршень;Sticky Piston;minecraft:sticky_piston;64
+Блок слизи;Slime Block;minecraft:slime_block;64
+Блок мёда;Honey Block;minecraft:honey_block;64
+Раздатчик;Dispenser;minecraft:dispenser;64
+Выбрасыватель;Dropper;minecraft:dropper;64
+Сборщик;Crafter;minecraft:crafter;64
+Воронка;Hopper;minecraft:hopper;64
+Сундук;Chest;minecraft:chest;64
+Бочка;Barrel;minecraft:barrel;64
+Резная книжная полка;Chiseled Bookshelf;minecraft:chiseled_bookshelf;64
+Печь;Furnace;minecraft:furnace;64
+Сундук-ловушка;Trapped Chest;minecraft:trapped_chest;64
+Проигрыватель;Jukebox;minecraft:jukebox;64
+Узорчатая ваза;Decorated Pot;minecraft:decorated_pot;64
+Наблюдатель;Observer;minecraft:observer;64
+Нотный блок;Note Block;minecraft:note_block;64
+Компостница;Composter;minecraft:composter;64
+Котёл;Cauldron;minecraft:cauldron;64
+Рельсы;Rail;minecraft:rail;64
+Энергорельсы;Powered Rail;minecraft:powered_rail;64
+Рельсы с датчиком;Detector Rail;minecraft:detector_rail;64
+Активирующие рельсы;Activator Rail;minecraft:activator_rail;64
+Вагонетка;Minecart;minecraft:minecart;1
+Загрузочная вагонетка;Minecart with Hopper;minecraft:hopper_minecart;1
+Грузовая вагонетка;Minecart with Chest;minecraft:chest_minecart;1
+Самоходная вагонетка;Minecart with Furnace;minecraft:furnace_minecart;1
+Вагонетка с динамитом;Minecart with TNT;minecraft:tnt_minecart;1
+Дубовая грузовая лодка;Oak Boat with Chest;minecraft:oak_chest_boat;1
+Грузовой бамбуковый плот;Bamboo Raft with Chest;minecraft:bamboo_chest_raft;1
+Динамит;TNT;minecraft:tnt;64
+Редстоуновая лампа;Redstone Lamp;minecraft:redstone_lamp;64
+Колокол;Bell;minecraft:bell;64
+Большая бросянка;Big Dripleaf;minecraft:big_dripleaf;64
+Стойка для брони;Armor Stand;minecraft:armor_stand;16
+Редстоуновая руда;Redstone Ore;minecraft:redstone_ore;64
+Дёрн;Grass Block;minecraft:grass_block;64
+Подзол;Podzol;minecraft:podzol;64
+Мицелий;Mycelium;minecraft:mycelium;64
+Тропинка;Dirt Path;minecraft:dirt_path;64
+Земля;Dirt;minecraft:dirt;64
+Каменистая земля;Coarse Dirt;minecraft:coarse_dirt;64
+Корнистая земля;Rooted Dirt;minecraft:rooted_dirt;64
+Пашня;Farmland;minecraft:farmland;64
+Грязь;Mud;minecraft:mud;64
+Глина;Clay;minecraft:clay;64
+Гравий;Gravel;minecraft:gravel;64
+Песок;Sand;minecraft:sand;64
+Красный песок;Red Sand;minecraft:red_sand;64
+Лёд;Ice;minecraft:ice;64
+Плотный лёд;Packed Ice;minecraft:packed_ice;64
+Синий лёд;Blue Ice;minecraft:blue_ice;64
+Блок снега;Snow Block;minecraft:snow_block;64
+Снег;Snow;minecraft:snow;64
+Блок мха;Moss Block;minecraft:moss_block;64
+Моховой ковёр;Moss Carpet;minecraft:moss_carpet;64
+Блок бледного мха;Pale Moss Block;minecraft:pale_moss_block;64
+Бледный моховой ковёр;Pale Moss Carpet;minecraft:pale_moss_carpet;64
+Свисающий бледный мох;Pale Hanging Moss;minecraft:pale_hanging_moss;64
+Кальцит;Calcite;minecraft:calcite;64
+Натёчный камень;Dripstone Block;minecraft:dripstone_block;64
+Капельник;Pointed Dripstone;minecraft:pointed_dripstone;64
+Магма;Magma Block;minecraft:magma_block;64
+Обсидиан;Obsidian;minecraft:obsidian;64
+Плачущий обсидиан;Crying Obsidian;minecraft:crying_obsidian;64
+Багровый нилий;Crimson Nylium;minecraft:crimson_nylium;64
+Искажённый нилий;Warped Nylium;minecraft:warped_nylium;64
+Песок душ;Soul Sand;minecraft:soul_sand;64
+Почва душ;Soul Soil;minecraft:soul_soil;64
+Костный блок;Bone Block;minecraft:bone_block;64
+Угольная руда;Coal Ore;minecraft:coal_ore;64
+Угленосный глубинный сланец;Deepslate Coal Ore;minecraft:deepslate_coal_ore;64
+Железная руда;Iron Ore;minecraft:iron_ore;64
+Железоносный глубинный сланец;Deepslate Iron Ore;minecraft:deepslate_iron_ore;64
+Медная руда;Copper Ore;minecraft:copper_ore;64
+Меденосный глубинный сланец;Deepslate Copper Ore;minecraft:deepslate_copper_ore;64
+Золотая руда;Gold Ore;minecraft:gold_ore;64
+Золотоносный глубинный сланец;Deepslate Gold Ore;minecraft:deepslate_gold_ore;64
+Редстоуноносный глубинный сланец;Deepslate Redstone Ore;minecraft:deepslate_redstone_ore;64
+Изумрудная руда;Emerald Ore;minecraft:emerald_ore;64
+Изумрудоносный глубинный сланец;Deepslate Emerald Ore;minecraft:deepslate_emerald_ore;64
+Лазуритовая руда;Lapis Lazuli Ore;minecraft:lapis_ore;64
+Лазуритоносный глубинный сланец;Deepslate Lapis Lazuli Ore;minecraft:deepslate_lapis_ore;64
+Алмазная руда;Diamond Ore;minecraft:diamond_ore;64
+Алмазоносный глубинный сланец;Deepslate Diamond Ore;minecraft:deepslate_diamond_ore;64
+Незерская золотая руда;Nether Gold Ore;minecraft:nether_gold_ore;64
+Руда незерского кварца;Nether Quartz Ore;minecraft:nether_quartz_ore;64
+Древние обломки;Ancient Debris;minecraft:ancient_debris;64
+Блок рудного железа;Block of Raw Iron;minecraft:raw_iron_block;64
+Блок рудной меди;Block of Raw Copper;minecraft:raw_copper_block;64
+Блок рудного золота;Block of Raw Gold;minecraft:raw_gold_block;64
+Светокамень;Glowstone;minecraft:glowstone;64
+Цветущий аметист;Budding Amethyst;minecraft:budding_amethyst;64
+Малый аметистовый бутон;Small Amethyst Bud;minecraft:small_amethyst_bud;64
+Средний аметистовый бутон;Medium Amethyst Bud;minecraft:medium_amethyst_bud;64
+Большой аметистовый бутон;Large Amethyst Bud;minecraft:large_amethyst_bud;64
+Аметистовая друза;Amethyst Cluster;minecraft:amethyst_cluster;64
+Мангровые корни;Mangrove Roots;minecraft:mangrove_roots;64
+Грязные мангровые корни;Muddy Mangrove Roots;minecraft:muddy_mangrove_roots;64
+Ножка гриба;Mushroom Stem;minecraft:mushroom_stem;64
+Дубовые листья;Oak Leaves;minecraft:oak_leaves;64
+Хвоя;Spruce Leaves;minecraft:spruce_leaves;64
+Берёзовые листья;Birch Leaves;minecraft:birch_leaves;64
+Листья джунглевого дерева;Jungle Leaves;minecraft:jungle_leaves;64
+Листья акации;Acacia Leaves;minecraft:acacia_leaves;64
+Листья тёмного дуба;Dark Oak Leaves;minecraft:dark_oak_leaves;64
+Мангровые листья;Mangrove Leaves;minecraft:mangrove_leaves;64
+Вишнёвые листья;Cherry Leaves;minecraft:cherry_leaves;64
+Листья бледного дуба;Pale Oak Leaves;minecraft:pale_oak_leaves;64
+Листья азалии;Azalea Leaves;minecraft:azalea_leaves;64
+Листья цветущей азалии;Flowering Azalea Leaves;minecraft:flowering_azalea_leaves;64
+Блок коричневого гриба;Brown Mushroom Block;minecraft:brown_mushroom_block;64
+Блок красного гриба;Red Mushroom Block;minecraft:red_mushroom_block;64
+Блок незерского нароста;Nether Wart Block;minecraft:nether_wart_block;64
+Блок искажённого нароста;Warped Wart Block;minecraft:warped_wart_block;64
+Грибосвет;Shroomlight;minecraft:shroomlight;64
+Саженец дуба;Oak Sapling;minecraft:oak_sapling;64
+Саженец ели;Spruce Sapling;minecraft:spruce_sapling;64
+Саженец берёзы;Birch Sapling;minecraft:birch_sapling;64
+Саженец джунглевого дерева;Jungle Sapling;minecraft:jungle_sapling;64
+Саженец акации;Acacia Sapling;minecraft:acacia_sapling;64
+Саженец тёмного дуба;Dark Oak Sapling;minecraft:dark_oak_sapling;64
+Мангровый отросток;Mangrove Propagule;minecraft:mangrove_propagule;64
+Саженец вишни;Cherry Sapling;minecraft:cherry_sapling;64
+Саженец бледного дуба;Pale Oak Sapling;minecraft:pale_oak_sapling;64
+Азалия;Azalea;minecraft:azalea;64
+Цветущая азалия;Flowering Azalea;minecraft:flowering_azalea;64
+Коричневый гриб;Brown Mushroom;minecraft:brown_mushroom;64
+Красный гриб;Red Mushroom;minecraft:red_mushroom;64
+Багровый гриб;Crimson Fungus;minecraft:crimson_fungus;64
+Искажённый гриб;Warped Fungus;minecraft:warped_fungus;64
+Низкая трава;Short Grass;minecraft:short_grass;64
+Папоротник;Fern;minecraft:fern;64
+Низкая сухая трава;Short Dry Grass;minecraft:short_dry_grass;64
+Куст;Bush;minecraft:bush;64
+Мёртвый куст;Dead Bush;minecraft:dead_bush;64
+Одуванчик;Dandelion;minecraft:dandelion;64
+Мак;Poppy;minecraft:poppy;64
+Синяя орхидея;Blue Orchid;minecraft:blue_orchid;64
+Лук-батун;Allium;minecraft:allium;64
+Хаустония серая;Azure Bluet;minecraft:azure_bluet;64
+Красный тюльпан;Red Tulip;minecraft:red_tulip;64
+Оранжевый тюльпан;Orange Tulip;minecraft:orange_tulip;64
+Белый тюльпан;White Tulip;minecraft:white_tulip;64
+Розовый тюльпан;Pink Tulip;minecraft:pink_tulip;64
+Ромашка;Oxeye Daisy;minecraft:oxeye_daisy;64
+Синий василёк;Cornflower;minecraft:cornflower;64
+Ландыш;Lily of the Valley;minecraft:lily_of_the_valley;64
+Факельник;Torchflower;minecraft:torchflower;64
+Цветок кактуса;Cactus Flower;minecraft:cactus_flower;64
+Закрытая глазалия;Closed Eyeblossom;minecraft:closed_eyeblossom;64
+Раскрытая глазалия;Open Eyeblossom;minecraft:open_eyeblossom;64
+Роза визера;Wither Rose;minecraft:wither_rose;64
+Розовые лепестки;Pink Petals;minecraft:pink_petals;64
+Полевые цветы;Wildflowers;minecraft:wildflowers;64
+Сухие листья;Leaf Litter;minecraft:leaf_litter;64
+Спороцвет;Spore Blossom;minecraft:spore_blossom;64
+Куст со светлячками;Firefly Bush;minecraft:firefly_bush;64
+Бамбук;Bamboo;minecraft:bamboo;64
+Сахарный тростник;Sugar Cane;minecraft:sugar_cane;64
+Кактус;Cactus;minecraft:cactus;64
+Багровые корни;Crimson Roots;minecraft:crimson_roots;64
+Искажённые корни;Warped Roots;minecraft:warped_roots;64
+Незерские ростки;Nether Sprouts;minecraft:nether_sprouts;64
+Плакучая лоза;Weeping Vines;minecraft:weeping_vines;64
+Вьющаяся лоза;Twisting Vines;minecraft:twisting_vines;64
+Лианы;Vines;minecraft:vine;64
+Высокая трава;Tall Grass;minecraft:tall_grass;64
+Раскидистый папоротник;Large Fern;minecraft:large_fern;64
+Высокая сухая трава;Tall Dry Grass;minecraft:tall_dry_grass;64
+Подсолнух;Sunflower;minecraft:sunflower;64
+Сирень;Lilac;minecraft:lilac;64
+Розовый куст;Rose Bush;minecraft:rose_bush;64
+Пион;Peony;minecraft:peony;64
+Кувшинница;Pitcher Plant;minecraft:pitcher_plant;64
+Маленькая бросянка;Small Dripleaf;minecraft:small_dripleaf;64
+Хорус;Chorus Plant;minecraft:chorus_plant;64
+Цветок хоруса;Chorus Flower;minecraft:chorus_flower;64
+Светящийся лишайник;Glow Lichen;minecraft:glow_lichen;64
+Свисающие корни;Hanging Roots;minecraft:hanging_roots;64
+Лягушачья икра;Frogspawn;minecraft:frogspawn;64
+Черепашье яйцо;Turtle Egg;minecraft:turtle_egg;64
+Яйцо нюхача;Sniffer Egg;minecraft:sniffer_egg;64
+Высохший гаст;Dried Ghast;minecraft:dried_ghast;64
+Семена пшеницы;Wheat Seeds;minecraft:wheat_seeds;64
+Какао-бобы;Cocoa Beans;minecraft:cocoa_beans;64
+Семена тыквы;Pumpkin Seeds;minecraft:pumpkin_seeds;64
+Семена арбуза;Melon Seeds;minecraft:melon_seeds;64
+Семена свёклы;Beetroot Seeds;minecraft:beetroot_seeds;64
+Семена факельника;Torchflower Seeds;minecraft:torchflower_seeds;64
+Стручок кувшинницы;Pitcher Pod;minecraft:pitcher_pod;64
+Светящиеся ягоды;Glow Berries;minecraft:glow_berries;64
+Сладкие ягоды;Sweet Berries;minecraft:sweet_berries;64
+Незерский нарост;Nether Wart;minecraft:nether_wart;64
+Кувшинка;Lily Pad;minecraft:lily_pad;64
+Морская трава;Seagrass;minecraft:seagrass;64
+Морской огурец;Sea Pickle;minecraft:sea_pickle;64
+Ламинария;Kelp;minecraft:kelp;64
+Блок сушёной ламинарии;Dried Kelp Block;minecraft:dried_kelp_block;64
+Блок трубчатого коралла;Tube Coral Block;minecraft:tube_coral_block;64
+Блок коралла-мозговика;Brain Coral Block;minecraft:brain_coral_block;64
+Блок пузырчатого коралла;Bubble Coral Block;minecraft:bubble_coral_block;64
+Блок огненного коралла;Fire Coral Block;minecraft:fire_coral_block;64
+Блок рогового коралла;Horn Coral Block;minecraft:horn_coral_block;64
+Блок мёртвого трубчатого коралла;Dead Tube Coral Block;minecraft:dead_tube_coral_block;64
+Блок мёртвого коралла-мозговика;Dead Brain Coral Block;minecraft:dead_brain_coral_block;64
+Блок мёртвого пузырчатого коралла;Dead Bubble Coral Block;minecraft:dead_bubble_coral_block;64
+Блок мёртвого огненного коралла;Dead Fire Coral Block;minecraft:dead_fire_coral_block;64
+Блок мёртвого рогового коралла;Dead Horn Coral Block;minecraft:dead_horn_coral_block;64
+Трубчатый коралл;Tube Coral;minecraft:tube_coral;64
+Коралл-мозговик;Brain Coral;minecraft:brain_coral;64
+Пузырчатый коралл;Bubble Coral;minecraft:bubble_coral;64
+Огненный коралл;Fire Coral;minecraft:fire_coral;64
+Роговый коралл;Horn Coral;minecraft:horn_coral;64
+Мёртвый трубчатый коралл;Dead Tube Coral;minecraft:dead_tube_coral;64
+Мёртвый коралл-мозговик;Dead Brain Coral;minecraft:dead_brain_coral;64
+Мёртвый пузырчатый коралл;Dead Bubble Coral;minecraft:dead_bubble_coral;64
+Мёртвый огненный коралл;Dead Fire Coral;minecraft:dead_fire_coral;64
+Мёртвый роговый коралл;Dead Horn Coral;minecraft:dead_horn_coral;64
+Веерный трубчатый коралл;Tube Coral Fan;minecraft:tube_coral_fan;64
+Веерный коралл-мозговик;Brain Coral Fan;minecraft:brain_coral_fan;64
+Веерный пузырчатый коралл;Bubble Coral Fan;minecraft:bubble_coral_fan;64
+Веерный огненный коралл;Fire Coral Fan;minecraft:fire_coral_fan;64
+Веерный роговый коралл;Horn Coral Fan;minecraft:horn_coral_fan;64
+Мёртвый веерный трубчатый коралл;Dead Tube Coral Fan;minecraft:dead_tube_coral_fan;64
+Мёртвый веерный коралл-мозговик;Dead Brain Coral Fan;minecraft:dead_brain_coral_fan;64
+Мёртвый веерный пузырчатый коралл;Dead Bubble Coral Fan;minecraft:dead_bubble_coral_fan;64
+Мёртвый веерный огненный коралл;Dead Fire Coral Fan;minecraft:dead_fire_coral_fan;64
+Мёртвый веерный роговый коралл;Dead Horn Coral Fan;minecraft:dead_horn_coral_fan;64
+Губка;Sponge;minecraft:sponge;64
+Мокрая губка;Wet Sponge;minecraft:wet_sponge;64
+Арбуз;Melon;minecraft:melon;64
+Тыква;Pumpkin;minecraft:pumpkin;64
+Вырезанная тыква;Carved Pumpkin;minecraft:carved_pumpkin;64
+Светильник Джека;Jack o'Lantern;minecraft:jack_o_lantern;64
+Сноп сена;Hay Bale;minecraft:hay_block;64
+Пчелиное гнездо;Bee Nest;minecraft:bee_nest;64
+Блок пчелиных сот;Honeycomb Block;minecraft:honeycomb_block;64
+Смоляной блок;Block of Resin;minecraft:resin_block;64
+Охристая квампа;Ochre Froglight;minecraft:ochre_froglight;64
+Малахитовая квампа;Verdant Froglight;minecraft:verdant_froglight;64
+Перламутровая квампа;Pearlescent Froglight;minecraft:pearlescent_froglight;64
+Скалк;Sculk;minecraft:sculk;64
+Скалковая жила;Sculk Vein;minecraft:sculk_vein;64
+Скалковый катализатор;Sculk Catalyst;minecraft:sculk_catalyst;64
+Паутина;Cobweb;minecraft:cobweb;64
+Факел;Torch;minecraft:torch;64
+Факел душ;Soul Torch;minecraft:soul_torch;64
+Фонарь;Lantern;minecraft:lantern;64
+Фонарь душ;Soul Lantern;minecraft:soul_lantern;64
+Медный фонарь;Copper Lantern;minecraft:copper_lantern;64
+Потемневший медный фонарь;Exposed Copper Lantern;minecraft:exposed_copper_lantern;64
+Состаренный медный фонарь;Weathered Copper Lantern;minecraft:weathered_copper_lantern;64
+Окисленный медный фонарь;Oxidized Copper Lantern;minecraft:oxidized_copper_lantern;64
+Вощёный медный фонарь;Waxed Copper Lantern;minecraft:waxed_copper_lantern;64
+Вощёный потемневший медный фонарь;Waxed Exposed Copper Lantern;minecraft:waxed_exposed_copper_lantern;64
+Вощёный состаренный медный фонарь;Waxed Weathered Copper Lantern;minecraft:waxed_weathered_copper_lantern;64
+Вощёный окисленный медный фонарь;Waxed Oxidized Copper Lantern;minecraft:waxed_oxidized_copper_lantern;64
+Стержень Энда;End Rod;minecraft:end_rod;64
+Верстак;Crafting Table;minecraft:crafting_table;64
+Камнерез;Stonecutter;minecraft:stonecutter;64
+Стол картографа;Cartography Table;minecraft:cartography_table;64
+Стол лучника;Fletching Table;minecraft:fletching_table;64
+Стол кузнеца;Smithing Table;minecraft:smithing_table;64
+Точило;Grindstone;minecraft:grindstone;64
+Ткацкий станок;Loom;minecraft:loom;64
+Коптильня;Smoker;minecraft:smoker;64
+Плавильная печь;Blast Furnace;minecraft:blast_furnace;64
+Костёр;Campfire;minecraft:campfire;64
+Костёр душ;Soul Campfire;minecraft:soul_campfire;64
+Наковальня;Anvil;minecraft:anvil;64
+Повреждённая наковальня;Chipped Anvil;minecraft:chipped_anvil;64
+Разбитая наковальня;Damaged Anvil;minecraft:damaged_anvil;64
+Чародейский стол;Enchanting Table;minecraft:enchanting_table;64
+Кристалл Энда;End Crystal;minecraft:end_crystal;64
+Зельеварка;Brewing Stand;minecraft:brewing_stand;64
+Маяк;Beacon;minecraft:beacon;64
+Морской источник;Conduit;minecraft:conduit;64
+Магнетит;Lodestone;minecraft:lodestone;64
+Лестница;Ladder;minecraft:ladder;64
+Подмостки;Scaffolding;minecraft:scaffolding;64
+Улей;Beehive;minecraft:beehive;64
+Подозрительный песок;Suspicious Sand;minecraft:suspicious_sand;64
+Подозрительный гравий;Suspicious Gravel;minecraft:suspicious_gravel;64
+Цветочный горшок;Flower Pot;minecraft:flower_pot;64
+Рамка;Item Frame;minecraft:item_frame;64
+Светящаяся рамка;Glow Item Frame;minecraft:glow_item_frame;64
+Картина;Painting;minecraft:painting;64
+Книжная полка;Bookshelf;minecraft:bookshelf;64
+Дубовая табличка;Oak Sign;minecraft:oak_sign;16
+Дубовая подвесная табличка;Oak Hanging Sign;minecraft:oak_hanging_sign;16
+Еловая табличка;Spruce Sign;minecraft:spruce_sign;16
+Еловая подвесная табличка;Spruce Hanging Sign;minecraft:spruce_hanging_sign;16
+Берёзовая табличка;Birch Sign;minecraft:birch_sign;16
+Берёзовая подвесная табличка;Birch Hanging Sign;minecraft:birch_hanging_sign;16
+Табличка из джунглевого дерева;Jungle Sign;minecraft:jungle_sign;16
+Подвесная табличка из джунглевого дерева;Jungle Hanging Sign;minecraft:jungle_hanging_sign;16
+Акациевая табличка;Acacia Sign;minecraft:acacia_sign;16
+Акациевая подвесная табличка;Acacia Hanging Sign;minecraft:acacia_hanging_sign;16
+Табличка из тёмного дуба;Dark Oak Sign;minecraft:dark_oak_sign;16
+Подвесная табличка из тёмного дуба;Dark Oak Hanging Sign;minecraft:dark_oak_hanging_sign;16
+Мангровая табличка;Mangrove Sign;minecraft:mangrove_sign;16
+Мангровая подвесная табличка;Mangrove Hanging Sign;minecraft:mangrove_hanging_sign;16
+Вишнёвая табличка;Cherry Sign;minecraft:cherry_sign;16
+Вишнёвая подвесная табличка;Cherry Hanging Sign;minecraft:cherry_hanging_sign;16
+Табличка из бледного дуба;Pale Oak Sign;minecraft:pale_oak_sign;16
+Подвесная табличка из бледного дуба;Pale Oak Hanging Sign;minecraft:pale_oak_hanging_sign;16
+Бамбуковая табличка;Bamboo Sign;minecraft:bamboo_sign;16
+Бамбуковая подвесная табличка;Bamboo Hanging Sign;minecraft:bamboo_hanging_sign;16
+Багровая табличка;Crimson Sign;minecraft:crimson_sign;16
+Багровая подвесная табличка;Crimson Hanging Sign;minecraft:crimson_hanging_sign;16
+Искажённая табличка;Warped Sign;minecraft:warped_sign;16
+Искажённая подвесная табличка;Warped Hanging Sign;minecraft:warped_hanging_sign;16
+Эндер-сундук;Ender Chest;minecraft:ender_chest;64
+Якорь возрождения;Respawn Anchor;minecraft:respawn_anchor;64
+Череп;Skeleton Skull;minecraft:skeleton_skull;64
+Череп визер-скелета;Wither Skeleton Skull;minecraft:wither_skeleton_skull;64
+Голова игрока;Player Head;minecraft:player_head;64
+Голова зомби;Zombie Head;minecraft:zombie_head;64
+Голова крипера;Creeper Head;minecraft:creeper_head;64
+Голова пиглина;Piglin Head;minecraft:piglin_head;64
+Голова дракона;Dragon Head;minecraft:dragon_head;64
+Яйцо дракона;Dragon Egg;minecraft:dragon_egg;64
+Рамка портала Энда;End Portal Frame;minecraft:end_portal_frame;64
+Око Эндера;Eye of Ender;minecraft:ender_eye;16
+Хранилище;Vault;minecraft:vault;64
+Заражённый камень;Infested Stone;minecraft:infested_stone;64
+Заражённый булыжник;Infested Cobblestone;minecraft:infested_cobblestone;64
+Заражённые каменные кирпичи;Infested Stone Bricks;minecraft:infested_stone_bricks;64
+Заражённые замшелые каменные кирпичи;Infested Mossy Stone Bricks;minecraft:infested_mossy_stone_bricks;64
+Заражённые потрескавшиеся каменные кирпичи;Infested Cracked Stone Bricks;minecraft:infested_cracked_stone_bricks;64
+Заражённые резные каменные кирпичи;Infested Chiseled Stone Bricks;minecraft:infested_chiseled_stone_bricks;64
+Заражённый глубинный сланец;Infested Deepslate;minecraft:infested_deepslate;64
+Скрипцевина;Creaking Heart;minecraft:creaking_heart;64
+Ведро воды;Water Bucket;minecraft:water_bucket;1
+Ведро лавы;Lava Bucket;minecraft:lava_bucket;1
+Ведро с рыхлым снегом;Powder Snow Bucket;minecraft:powder_snow_bucket;1
+Свет;Light;minecraft:light;64
+Барьер;Barrier;minecraft:barrier;64
+Торт;Cake;minecraft:cake;1
+Бедрок;Bedrock;minecraft:bedrock;64
+Навершие булавы;Heavy Core;minecraft:heavy_core;64
+Рассадник монстров;Monster Spawner;minecraft:spawner;64
+Сгусток смолы;Resin Clump;minecraft:resin_clump;64
+Седло;Saddle;minecraft:saddle;1
+Белая упряжь;White Harness;minecraft:white_harness;64
+Оранжевая упряжь;Orange Harness;minecraft:orange_harness;64
+Пурпурная упряжь;Magenta Harness;minecraft:magenta_harness;64
+Голубая упряжь;Light Blue Harness;minecraft:light_blue_harness;64
+Жёлтая упряжь;Yellow Harness;minecraft:yellow_harness;64
+Лаймовая упряжь;Lime Harness;minecraft:lime_harness;64
+Розовая упряжь;Pink Harness;minecraft:pink_harness;64
+Серая упряжь;Gray Harness;minecraft:gray_harness;64
+Светло-серая упряжь;Light Gray Harness;minecraft:light_gray_harness;64
+Бирюзовая упряжь;Cyan Harness;minecraft:cyan_harness;64
+Фиолетовая упряжь;Purple Harness;minecraft:purple_harness;64
+Синяя упряжь;Blue Harness;minecraft:blue_harness;64
+Коричневая упряжь;Brown Harness;minecraft:brown_harness;64
+Зелёная упряжь;Green Harness;minecraft:green_harness;64
+Красная упряжь;Red Harness;minecraft:red_harness;64
+Чёрная упряжь;Black Harness;minecraft:black_harness;64
+Удочка с морковкой;Carrot on a Stick;minecraft:carrot_on_a_stick;64
+Удочка с искажённым грибом;Warped Fungus on a Stick;minecraft:warped_fungus_on_a_stick;64
+Мембрана фантома;Phantom Membrane;minecraft:phantom_membrane;64
+Элитры;Elytra;minecraft:elytra;64
+Дубовая лодка;Oak Boat;minecraft:oak_boat;1
+Еловая лодка;Spruce Boat;minecraft:spruce_boat;1
+Еловая грузовая лодка;Spruce Boat with Chest;minecraft:spruce_chest_boat;1
+Берёзовая лодка;Birch Boat;minecraft:birch_boat;1
+Берёзовая грузовая лодка;Birch Boat with Chest;minecraft:birch_chest_boat;1
+Лодка из джунглевого дерева;Jungle Boat;minecraft:jungle_boat;1
+Грузовая лодка из джунглевого дерева;Jungle Boat with Chest;minecraft:jungle_chest_boat;1
+Акациевая лодка;Acacia Boat;minecraft:acacia_boat;1
+Акациевая грузовая лодка;Acacia Boat with Chest;minecraft:acacia_chest_boat;1
+Вишнёвая лодка;Cherry Boat;minecraft:cherry_boat;1
+Вишнёвая грузовая лодка;Cherry Boat with Chest;minecraft:cherry_chest_boat;1
+Лодка из тёмного дуба;Dark Oak Boat;minecraft:dark_oak_boat;1
+Грузовая лодка из тёмного дуба;Dark Oak Boat with Chest;minecraft:dark_oak_chest_boat;1
+Лодка из бледного дуба;Pale Oak Boat;minecraft:pale_oak_boat;1
+Грузовая лодка из бледного дуба;Pale Oak Boat with Chest;minecraft:pale_oak_chest_boat;1
+Мангровая лодка;Mangrove Boat;minecraft:mangrove_boat;1
+Мангровая грузовая лодка;Mangrove Boat with Chest;minecraft:mangrove_chest_boat;1
+Бамбуковый плот;Bamboo Raft;minecraft:bamboo_raft;1
+Черепаший панцирь;Turtle Shell;minecraft:turtle_helmet;64
+Черепаший щиток;Turtle Scute;minecraft:turtle_scute;64
+Щиток броненосца;Armadillo Scute;minecraft:armadillo_scute;64
+Волчья броня;Wolf Armor;minecraft:wolf_armor;64
+Огниво;Flint and Steel;minecraft:flint_and_steel;64
+Миска;Bowl;minecraft:bowl;64
+Яблоко;Apple;minecraft:apple;64
+Лук;Bow;minecraft:bow;64
+Стрела;Arrow;minecraft:arrow;64
+Уголь;Coal;minecraft:coal;64
+Древесный уголь;Charcoal;minecraft:charcoal;64
+Алмаз;Diamond;minecraft:diamond;64
+Изумруд;Emerald;minecraft:emerald;64
+Лазурит;Lapis Lazuli;minecraft:lapis_lazuli;64
+Незерский кварц;Nether Quartz;minecraft:quartz;64
+Осколок аметиста;Amethyst Shard;minecraft:amethyst_shard;64
+Рудное железо;Raw Iron;minecraft:raw_iron;64
+Железный слиток;Iron Ingot;minecraft:iron_ingot;64
+Рудная медь;Raw Copper;minecraft:raw_copper;64
+Медный слиток;Copper Ingot;minecraft:copper_ingot;64
+Рудное золото;Raw Gold;minecraft:raw_gold;64
+Золотой слиток;Gold Ingot;minecraft:gold_ingot;64
+Незеритовый слиток;Netherite Ingot;minecraft:netherite_ingot;64
+Незеритовый лом;Netherite Scrap;minecraft:netherite_scrap;64
+Деревянный меч;Wooden Sword;minecraft:wooden_sword;64
+Деревянная лопата;Wooden Shovel;minecraft:wooden_shovel;64
+Деревянная кирка;Wooden Pickaxe;minecraft:wooden_pickaxe;64
+Деревянный топор;Wooden Axe;minecraft:wooden_axe;64
+Деревянная мотыга;Wooden Hoe;minecraft:wooden_hoe;64
+Каменный меч;Stone Sword;minecraft:stone_sword;64
+Каменная лопата;Stone Shovel;minecraft:stone_shovel;64
+Каменная кирка;Stone Pickaxe;minecraft:stone_pickaxe;64
+Каменный топор;Stone Axe;minecraft:stone_axe;64
+Каменная мотыга;Stone Hoe;minecraft:stone_hoe;64
+Золотой меч;Golden Sword;minecraft:golden_sword;64
+Золотая лопата;Golden Shovel;minecraft:golden_shovel;64
+Золотая кирка;Golden Pickaxe;minecraft:golden_pickaxe;64
+Золотой топор;Golden Axe;minecraft:golden_axe;64
+Золотая мотыга;Golden Hoe;minecraft:golden_hoe;64
+Железный меч;Iron Sword;minecraft:iron_sword;64
+Железная лопата;Iron Shovel;minecraft:iron_shovel;64
+Железная кирка;Iron Pickaxe;minecraft:iron_pickaxe;64
+Железный топор;Iron Axe;minecraft:iron_axe;64
+Железная мотыга;Iron Hoe;minecraft:iron_hoe;64
+Алмазный меч;Diamond Sword;minecraft:diamond_sword;64
+Алмазная лопата;Diamond Shovel;minecraft:diamond_shovel;64
+Алмазная кирка;Diamond Pickaxe;minecraft:diamond_pickaxe;64
+Алмазный топор;Diamond Axe;minecraft:diamond_axe;64
+Алмазная мотыга;Diamond Hoe;minecraft:diamond_hoe;64
+Незеритовый меч;Netherite Sword;minecraft:netherite_sword;64
+Незеритовая лопата;Netherite Shovel;minecraft:netherite_shovel;64
+Незеритовая кирка;Netherite Pickaxe;minecraft:netherite_pickaxe;64
+Незеритовый топор;Netherite Axe;minecraft:netherite_axe;64
+Незеритовая мотыга;Netherite Hoe;minecraft:netherite_hoe;64
+Палка;Stick;minecraft:stick;64
+Тушёные грибы;Mushroom Stew;minecraft:mushroom_stew;64
+Перо;Feather;minecraft:feather;64
+Порох;Gunpowder;minecraft:gunpowder;64
+Пшеница;Wheat;minecraft:wheat;64
+Хлеб;Bread;minecraft:bread;64
+Кожаный шлем;Leather Cap;minecraft:leather_helmet;64
+Кожаная куртка;Leather Tunic;minecraft:leather_chestplate;64
+Кожаные штаны;Leather Pants;minecraft:leather_leggings;64
+Кожаные ботинки;Leather Boots;minecraft:leather_boots;64
+Койф;Chainmail Helmet;minecraft:chainmail_helmet;64
+Кольчуга;Chainmail Chestplate;minecraft:chainmail_chestplate;64
+Кольчужные поножи;Chainmail Leggings;minecraft:chainmail_leggings;64
+Кольчужные ботинки;Chainmail Boots;minecraft:chainmail_boots;64
+Железный шлем;Iron Helmet;minecraft:iron_helmet;64
+Железный нагрудник;Iron Chestplate;minecraft:iron_chestplate;64
+Железные поножи;Iron Leggings;minecraft:iron_leggings;64
+Железные ботинки;Iron Boots;minecraft:iron_boots;64
+Алмазный шлем;Diamond Helmet;minecraft:diamond_helmet;64
+Алмазный нагрудник;Diamond Chestplate;minecraft:diamond_chestplate;64
+Алмазные поножи;Diamond Leggings;minecraft:diamond_leggings;64
+Алмазные ботинки;Diamond Boots;minecraft:diamond_boots;64
+Золотой шлем;Golden Helmet;minecraft:golden_helmet;64
+Золотой нагрудник;Golden Chestplate;minecraft:golden_chestplate;64
+Золотые поножи;Golden Leggings;minecraft:golden_leggings;64
+Золотые ботинки;Golden Boots;minecraft:golden_boots;64
+Незеритовый шлем;Netherite Helmet;minecraft:netherite_helmet;64
+Незеритовый нагрудник;Netherite Chestplate;minecraft:netherite_chestplate;64
+Незеритовые поножи;Netherite Leggings;minecraft:netherite_leggings;64
+Незеритовые ботинки;Netherite Boots;minecraft:netherite_boots;64
+Кремень;Flint;minecraft:flint;64
+Сырая свинина;Raw Porkchop;minecraft:porkchop;64
+Жареная свинина;Cooked Porkchop;minecraft:cooked_porkchop;64
+Золотое яблоко;Golden Apple;minecraft:golden_apple;64
+Зачарованное золотое яблоко;Enchanted Golden Apple;minecraft:enchanted_golden_apple;64
+Ведро;Bucket;minecraft:bucket;64
+Снежок;Snowball;minecraft:snowball;16
+Кожа;Leather;minecraft:leather;64
+Ведро молока;Milk Bucket;minecraft:milk_bucket;64
+Иглобрюх в ведре;Bucket of Pufferfish;minecraft:pufferfish_bucket;64
+Лосось в ведре;Bucket of Salmon;minecraft:salmon_bucket;64
+Треска в ведре;Bucket of Cod;minecraft:cod_bucket;64
+Тропическая рыба в ведре;Bucket of Tropical Fish;minecraft:tropical_fish_bucket;64
+Аксолотль в ведре;Bucket of Axolotl;minecraft:axolotl_bucket;64
+Головастик в ведре;Bucket of Tadpole;minecraft:tadpole_bucket;64
+Кирпич;Brick;minecraft:brick;64
+Комок глины;Clay Ball;minecraft:clay_ball;64
+Бумага;Paper;minecraft:paper;64
+Книга;Book;minecraft:book;64
+Сгусток слизи;Slimeball;minecraft:slime_ball;64
+Яйцо;Egg;minecraft:egg;16
+Голубое яйцо;Blue Egg;minecraft:blue_egg;64
+Коричневое яйцо;Brown Egg;minecraft:brown_egg;64
+Компас;Compass;minecraft:compass;64
+Возвратный компас;Recovery Compass;minecraft:recovery_compass;64
+Мешок;Bundle;minecraft:bundle;64
+Белый мешок;White Bundle;minecraft:white_bundle;64
+Оранжевый мешок;Orange Bundle;minecraft:orange_bundle;64
+Пурпурный мешок;Magenta Bundle;minecraft:magenta_bundle;64
+Голубой мешок;Light Blue Bundle;minecraft:light_blue_bundle;64
+Жёлтый мешок;Yellow Bundle;minecraft:yellow_bundle;64
+Лаймовый мешок;Lime Bundle;minecraft:lime_bundle;64
+Розовый мешок;Pink Bundle;minecraft:pink_bundle;64
+Серый мешок;Gray Bundle;minecraft:gray_bundle;64
+Светло-серый мешок;Light Gray Bundle;minecraft:light_gray_bundle;64
+Бирюзовый мешок;Cyan Bundle;minecraft:cyan_bundle;64
+Фиолетовый мешок;Purple Bundle;minecraft:purple_bundle;64
+Синий мешок;Blue Bundle;minecraft:blue_bundle;64
+Коричневый мешок;Brown Bundle;minecraft:brown_bundle;64
+Зелёный мешок;Green Bundle;minecraft:green_bundle;64
+Красный мешок;Red Bundle;minecraft:red_bundle;64
+Чёрный мешок;Black Bundle;minecraft:black_bundle;64
+Удочка;Fishing Rod;minecraft:fishing_rod;64
+Часы;Clock;minecraft:clock;64
+Подзорная труба;Spyglass;minecraft:spyglass;64
+Светокаменная пыль;Glowstone Dust;minecraft:glowstone_dust;64
+Сырая треска;Raw Cod;minecraft:cod;64
+Сырой лосось;Raw Salmon;minecraft:salmon;64
+Тропическая рыба;Tropical Fish;minecraft:tropical_fish;64
+Иглобрюх;Pufferfish;minecraft:pufferfish;64
+Жареная треска;Cooked Cod;minecraft:cooked_cod;64
+Жареный лосось;Cooked Salmon;minecraft:cooked_salmon;64
+Чернильный мешок;Ink Sac;minecraft:ink_sac;64
+Светящийся чернильный мешок;Glow Ink Sac;minecraft:glow_ink_sac;64
+Белый краситель;White Dye;minecraft:white_dye;64
+Оранжевый краситель;Orange Dye;minecraft:orange_dye;64
+Пурпурный краситель;Magenta Dye;minecraft:magenta_dye;64
+Голубой краситель;Light Blue Dye;minecraft:light_blue_dye;64
+Жёлтый краситель;Yellow Dye;minecraft:yellow_dye;64
+Лаймовый краситель;Lime Dye;minecraft:lime_dye;64
+Розовый краситель;Pink Dye;minecraft:pink_dye;64
+Серый краситель;Gray Dye;minecraft:gray_dye;64
+Светло-серый краситель;Light Gray Dye;minecraft:light_gray_dye;64
+Бирюзовый краситель;Cyan Dye;minecraft:cyan_dye;64
+Фиолетовый краситель;Purple Dye;minecraft:purple_dye;64
+Синий краситель;Blue Dye;minecraft:blue_dye;64
+Коричневый краситель;Brown Dye;minecraft:brown_dye;64
+Зелёный краситель;Green Dye;minecraft:green_dye;64
+Красный краситель;Red Dye;minecraft:red_dye;64
+Чёрный краситель;Black Dye;minecraft:black_dye;64
+Костная мука;Bone Meal;minecraft:bone_meal;64
+Кость;Bone;minecraft:bone;64
+Сахар;Sugar;minecraft:sugar;64
+Печенье;Cookie;minecraft:cookie;64
+Ножницы;Shears;minecraft:shears;64
+Ломтик арбуза;Melon Slice;minecraft:melon_slice;64
+Сушёная ламинария;Dried Kelp;minecraft:dried_kelp;64
+Сырая говядина;Raw Beef;minecraft:beef;64
+Стейк;Steak;minecraft:cooked_beef;64
+Яйцо призыва кадавра;Husk Spawn Egg;minecraft:husk_spawn_egg;64
+Яйцо призыва пустынника;Parched Spawn Egg;minecraft:parched_spawn_egg;64
+Яйцо призыва скелета;Skeleton Spawn Egg;minecraft:skeleton_spawn_egg;64
+Яйцо призыва лошади-скелета;Skeleton Horse Spawn Egg;minecraft:skeleton_horse_spawn_egg;64
+Яйцо призыва зимогора;Stray Spawn Egg;minecraft:stray_spawn_egg;64
+Яйцо призыва визер-скелета;Wither Skeleton Spawn Egg;minecraft:wither_skeleton_spawn_egg;64
+Яйцо призыва зомби;Zombie Spawn Egg;minecraft:zombie_spawn_egg;64
+Яйцо призыва лошади-зомби;Zombie Horse Spawn Egg;minecraft:zombie_horse_spawn_egg;64
+Яйцо призыва наутилуса-зомби;Zombie Nautilus Spawn Egg;minecraft:zombie_nautilus_spawn_egg;64
+Яйцо призыва крестьянина-зомби;Zombie Villager Spawn Egg;minecraft:zombie_villager_spawn_egg;64
+Яйцо призыва пещерного паука;Cave Spider Spawn Egg;minecraft:cave_spider_spawn_egg;64
+Яйцо призыва паука;Spider Spawn Egg;minecraft:spider_spawn_egg;64
+Яйцо призыва вихря;Breeze Spawn Egg;minecraft:breeze_spawn_egg;64
+Яйцо призыва скрипуна;Creaking Spawn Egg;minecraft:creaking_spawn_egg;64
+Яйцо призыва крипера;Creeper Spawn Egg;minecraft:creeper_spawn_egg;64
+Яйцо призыва древнего стража;Elder Guardian Spawn Egg;minecraft:elder_guardian_spawn_egg;64
+Яйцо призыва стража;Guardian Spawn Egg;minecraft:guardian_spawn_egg;64
+Яйцо призыва фантома;Phantom Spawn Egg;minecraft:phantom_spawn_egg;64
+Яйцо призыва чешуйницы;Silverfish Spawn Egg;minecraft:silverfish_spawn_egg;64
+Яйцо призыва слизня;Slime Spawn Egg;minecraft:slime_spawn_egg;64
+Яйцо призыва хранителя;Warden Spawn Egg;minecraft:warden_spawn_egg;64
+Яйцо призыва ведьмы;Witch Spawn Egg;minecraft:witch_spawn_egg;64
+Яйцо призыва заклинателя;Evoker Spawn Egg;minecraft:evoker_spawn_egg;64
+Яйцо призыва разбойника;Pillager Spawn Egg;minecraft:pillager_spawn_egg;64
+Яйцо призыва разорителя;Ravager Spawn Egg;minecraft:ravager_spawn_egg;64
+Яйцо призыва поборника;Vindicator Spawn Egg;minecraft:vindicator_spawn_egg;64
+Яйцо призыва вредины;Vex Spawn Egg;minecraft:vex_spawn_egg;64
+Яйцо призыва всполоха;Blaze Spawn Egg;minecraft:blaze_spawn_egg;64
+Яйцо призыва гаста;Ghast Spawn Egg;minecraft:ghast_spawn_egg;64
+Яйцо призыва счастливого гаста;Happy Ghast Spawn Egg;minecraft:happy_ghast_spawn_egg;64
+Яйцо призыва хоглина;Hoglin Spawn Egg;minecraft:hoglin_spawn_egg;64
+Яйцо призыва магмового куба;Magma Cube Spawn Egg;minecraft:magma_cube_spawn_egg;64
+Яйцо призыва пиглина;Piglin Spawn Egg;minecraft:piglin_spawn_egg;64
+Яйцо призыва брутального пиглина;Piglin Brute Spawn Egg;minecraft:piglin_brute_spawn_egg;64
+Яйцо призыва лавомерки;Strider Spawn Egg;minecraft:strider_spawn_egg;64
+Яйцо призыва зоглина;Zoglin Spawn Egg;minecraft:zoglin_spawn_egg;64
+Яйцо призыва зомбифицированного пиглина;Zombified Piglin Spawn Egg;minecraft:zombified_piglin_spawn_egg;64
+Яйцо призыва эндермена;Enderman Spawn Egg;minecraft:enderman_spawn_egg;64
+Яйцо призыва эндермита;Endermite Spawn Egg;minecraft:endermite_spawn_egg;64
+Яйцо призыва шалкера;Shulker Spawn Egg;minecraft:shulker_spawn_egg;64
+Пузырёк опыта;Bottle o' Enchanting;minecraft:experience_bottle;64
+Огненный заряд;Fire Charge;minecraft:fire_charge;64
+Заряд ветра;Wind Charge;minecraft:wind_charge;64
+Книга и перо;Book and Quill;minecraft:writable_book;64
+Вихревой стержень;Breeze Rod;minecraft:breeze_rod;64
+Булава;Mace;minecraft:mace;64
+Морковь;Carrot;minecraft:carrot;64
+Картофель;Potato;minecraft:potato;64
+Печёный картофель;Baked Potato;minecraft:baked_potato;64
+Ядовитый картофель;Poisonous Potato;minecraft:poisonous_potato;64
+Чистая карта;Empty Map;minecraft:map;64
+Золотая морковь;Golden Carrot;minecraft:golden_carrot;64
+Звезда Незера;Nether Star;minecraft:nether_star;64
+Тыквенный пирог;Pumpkin Pie;minecraft:pumpkin_pie;64
+Фейерверк;Firework Rocket;minecraft:firework_rocket;64
+Пиротехническая звезда;Firework Star;minecraft:firework_star;64
+Чародейская книга;Enchanted Book;minecraft:enchanted_book;1
+Незерский кирпич;Nether Brick;minecraft:nether_brick;64
+Смоляной кирпич;Resin Brick;minecraft:resin_brick;64
+Осколок призмарина;Prismarine Shard;minecraft:prismarine_shard;64
+Кристалл призмарина;Prismarine Crystals;minecraft:prismarine_crystals;64
+Сырая крольчатина;Raw Rabbit;minecraft:rabbit;64
+Жареная крольчатина;Cooked Rabbit;minecraft:cooked_rabbit;64
+Тушёный кролик;Rabbit Stew;minecraft:rabbit_stew;64
+Кроличья лапка;Rabbit's Foot;minecraft:rabbit_foot;64
+Кроличья шкурка;Rabbit Hide;minecraft:rabbit_hide;64
+Медная конская броня;Copper Horse Armor;minecraft:copper_horse_armor;1
+Железная конская броня;Iron Horse Armor;minecraft:iron_horse_armor;64
+Золотая конская броня;Golden Horse Armor;minecraft:golden_horse_armor;64
+Алмазная конская броня;Diamond Horse Armor;minecraft:diamond_horse_armor;64
+Незеритовая конская броня;Netherite Horse Armor;minecraft:netherite_horse_armor;1
+Кожаная конская броня;Leather Horse Armor;minecraft:leather_horse_armor;64
+Поводок;Lead;minecraft:lead;64
+Бирка;Name Tag;minecraft:name_tag;64
+Вагонетка с командным блоком;Minecart with Command Block;minecraft:command_block_minecart;1
+Сырая баранина;Raw Mutton;minecraft:mutton;64
+Жареная баранина;Cooked Mutton;minecraft:cooked_mutton;64
+Плод хоруса;Chorus Fruit;minecraft:chorus_fruit;64
+Прожаренный плод хоруса;Popped Chorus Fruit;minecraft:popped_chorus_fruit;64
+Свёкла;Beetroot;minecraft:beetroot;64
+Свекольный суп;Beetroot Soup;minecraft:beetroot_soup;64
+Дыхание дракона;Dragon's Breath;minecraft:dragon_breath;1
+Спектральная стрела;Spectral Arrow;minecraft:spectral_arrow;64
+Щит;Shield;minecraft:shield;64
+Деревянное копьё;Wooden Spear;minecraft:wooden_spear;1
+Каменное копьё;Stone Spear;minecraft:stone_spear;1
+Медное копьё;Copper Spear;minecraft:copper_spear;1
+Железное копьё;Iron Spear;minecraft:iron_spear;1
+Золотое копьё;Golden Spear;minecraft:golden_spear;1
+Алмазное копьё;Diamond Spear;minecraft:diamond_spear;1
+Незеритовое копьё;Netherite Spear;minecraft:netherite_spear;1
+Тотем бессмертия;Totem of Undying;minecraft:totem_of_undying;64
+Панцирь шалкера;Shulker Shell;minecraft:shulker_shell;64
+Кусочек железа;Iron Nugget;minecraft:iron_nugget;64
+Кусочек меди;Copper Nugget;minecraft:copper_nugget;64
+Палочка отладки;Debug Stick;minecraft:debug_stick;64
+Пластинка;Music Disc (13);minecraft:music_disc_13;1
+Осколок пластинки;Disc Fragment;minecraft:disc_fragment_5;64
+Трезубец;Trident;minecraft:trident;64
+Раковина наутилуса;Nautilus Shell;minecraft:nautilus_shell;64
+Железная броня наутилуса;Iron Nautilus Armor;minecraft:iron_nautilus_armor;64
+Золотая броня наутилуса;Golden Nautilus Armor;minecraft:golden_nautilus_armor;64
+Алмазная броня наутилуса;Diamond Nautilus Armor;minecraft:diamond_nautilus_armor;64
+Незеритовая броня наутилуса;Netherite Nautilus Armor;minecraft:netherite_nautilus_armor;64
+Медная броня наутилуса;Copper Nautilus Armor;minecraft:copper_nautilus_armor;64
+Сердце моря;Heart of the Sea;minecraft:heart_of_the_sea;64
+Арбалет;Crossbow;minecraft:crossbow;64
+Загадочное рагу;Suspicious Stew;minecraft:suspicious_stew;64
+Узор флага «Цветок»;Flower Charge Banner Pattern;minecraft:flower_banner_pattern;64
+Узор флага «Крипер»;Creeper Charge Banner Pattern;minecraft:creeper_banner_pattern;64
+Узор флага «Череп»;Skull Charge Banner Pattern;minecraft:skull_banner_pattern;64
+Узор флага «Нечто»;Thing Banner Pattern;minecraft:mojang_banner_pattern;64
+Узор флага «Глобус»;Globe Banner Pattern;minecraft:globe_banner_pattern;64
+Узор флага «Рыло»;Snout Banner Pattern;minecraft:piglin_banner_pattern;64
+Узор флага «Поток»;Flow Banner Pattern;minecraft:flow_banner_pattern;64
+Узор флага «Вихрь»;Guster Banner Pattern;minecraft:guster_banner_pattern;64
+Узор флага «Муровка»;Field Masoned Banner Pattern;minecraft:field_masoned_banner_pattern;64
+Узор флага «Зубчатая кайма»;Bordure Indented Banner Pattern;minecraft:bordure_indented_banner_pattern;64
+Козий рог;Goat Horn;minecraft:goat_horn;64
+Пчелиные соты;Honeycomb;minecraft:honeycomb;64
+Бутылочка мёда;Honey Bottle;minecraft:honey_bottle;64
+Осколок эха;Echo Shard;minecraft:echo_shard;64
+Кисть;Brush;minecraft:brush;64
+Незеритовое улучшение;Netherite Upgrade;minecraft:netherite_upgrade_smithing_template;64
+Отделка «Страж»;Sentry Armor Trim;minecraft:sentry_armor_trim_smithing_template;64
+Отделка «Дюна»;Dune Armor Trim;minecraft:dune_armor_trim_smithing_template;64
+Отделка «Берег»;Coast Armor Trim;minecraft:coast_armor_trim_smithing_template;64
+Отделка «Дебри»;Wild Armor Trim;minecraft:wild_armor_trim_smithing_template;64
+Отделка «Хранитель»;Ward Armor Trim;minecraft:ward_armor_trim_smithing_template;64
+Отделка «Око»;Eye Armor Trim;minecraft:eye_armor_trim_smithing_template;64
+Отделка «Вредина»;Vex Armor Trim;minecraft:vex_armor_trim_smithing_template;64
+Отделка «Прилив»;Tide Armor Trim;minecraft:tide_armor_trim_smithing_template;64
+Отделка «Рыло»;Snout Armor Trim;minecraft:snout_armor_trim_smithing_template;64
+Отделка «Ребро»;Rib Armor Trim;minecraft:rib_armor_trim_smithing_template;64
+Отделка «Шпиль»;Spire Armor Trim;minecraft:spire_armor_trim_smithing_template;64
+Отделка «Искатель»;Wayfinder Armor Trim;minecraft:wayfinder_armor_trim_smithing_template;64
+Отделка «Скульптор»;Shaper Armor Trim;minecraft:shaper_armor_trim_smithing_template;64
+Отделка «Тишина»;Silence Armor Trim;minecraft:silence_armor_trim_smithing_template;64
+Отделка «Собиратель»;Raiser Armor Trim;minecraft:raiser_armor_trim_smithing_template;64
+Отделка «Вождь»;Host Armor Trim;minecraft:host_armor_trim_smithing_template;64
+Отделка «Поток»;Flow Armor Trim;minecraft:flow_armor_trim_smithing_template;64
+Отделка «Ось»;Bolt Armor Trim;minecraft:bolt_armor_trim_smithing_template;64
+Глиняный черепок «Рыбак»;Angler Pottery Sherd;minecraft:angler_pottery_sherd;64
+Глиняный черепок «Лучник»;Archer Pottery Sherd;minecraft:archer_pottery_sherd;64
+Глиняный черепок «Руки вверх»;Arms Up Pottery Sherd;minecraft:arms_up_pottery_sherd;64
+Глиняный черепок «Исследователь»;Copper Chest;minecraft:copper_chest;64
+Глиняный черепок «Поток»;Exposed Copper Chest;minecraft:exposed_copper_chest;1
+Глиняный черепок «Друг»;Weathered Copper Chest;minecraft:weathered_copper_chest;1
+Глиняный черепок «Вихрь»;Oxidized Copper Chest;minecraft:oxidized_copper_chest;1
+Глиняный черепок «Сердце»;Waxed Copper Chest;minecraft:waxed_copper_chest;1
+Глиняный черепок «Разбитое сердце»;Waxed Exposed Copper Chest;minecraft:waxed_exposed_copper_chest;1
+Глиняный черепок «Вой»;Waxed Weathered Copper Chest;minecraft:waxed_weathered_copper_chest;1
+Глиняный черепок «Шахтёр»;Waxed Oxidized Copper Chest;minecraft:waxed_oxidized_copper_chest;1
+Рассадник испытаний;Trial Spawner;minecraft:trial_spawner;1
+Ключ испытаний;Trial Key;minecraft:trial_key;1
+Зловещий ключ испытаний;Ominous Trial Key;minecraft:ominous_trial_key;1
+Зловещая бутылочка;Ominous Bottle;minecraft:ominous_bottle;1
+Медный шлем;Copper Helmet;minecraft:copper_helmet;1
+Медный нагрудник;Copper Chestplate;minecraft:copper_chestplate;1
+Медные поножи;Copper Leggings;minecraft:copper_leggings;1
+Медные ботинки;Copper Boots;minecraft:copper_boots;1
+Медный меч;Copper Sword;minecraft:copper_sword;1
+Медная кирка;Copper Pickaxe;minecraft:copper_pickaxe;1
+Медный топор;Copper Axe;minecraft:copper_axe;1
+Медная лопата;Copper Shovel;minecraft:copper_shovel;1
+Медная мотыга;Copper Hoe;minecraft:copper_hoe;1
+Яйцо призыва медного голема;Copper Golem Spawn Egg;minecraft:copper_golem_spawn_egg;64
+Яйцо призыва наутилуса;Nautilus Spawn Egg;minecraft:nautilus_spawn_egg;64
+Яйцо призыва иссохшего верблюда;Camel Husk Spawn Egg;minecraft:camel_husk_spawn_egg;64
+Золотой одуванчик;Golden Dandelion;minecraft:golden_dandelion;64
