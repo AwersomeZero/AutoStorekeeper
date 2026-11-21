@@ -18,6 +18,8 @@
   let convertedRows = null;
   let generatedWorkbook = null;
   let outputFileName = '';
+  let quantityColumn = 'Total';
+  let fileReadVersion = 0;
 
   // Элементы DOM
   const dropzone = document.getElementById('dropzone');
@@ -26,6 +28,9 @@
   const fileInfo = document.getElementById('fileInfo');
   const fileNameDisplay = document.getElementById('fileNameDisplay');
   const fileSizeDisplay = document.getElementById('fileSizeDisplay');
+  const quantityInputs = document.querySelectorAll('input[name="quantityColumn"]');
+  const quantitySelector = document.getElementById('quantitySelector');
+  const quantityHeader = document.getElementById('quantityHeader');
 
   const downloadBtn = document.getElementById('downloadBtn');
   const downloadFilename = document.getElementById('downloadFilename');
@@ -214,9 +219,13 @@
   // ==========================================================================
   // Парсинг текстового формата MaterialList из Litematica (.txt)
   // ==========================================================================
-  function parseMaterialListText(text) {
+  function parseMaterialListText(text, column = 'Total') {
     const lines = text.split(/\r?\n/);
     const materials = [];
+    const quantityNames = column === 'Missing'
+      ? ['Missing']
+      : ['total', 'всего', 'кол-во', 'количество'];
+    let quantityIndex = column === 'Total' ? 1 : -1;
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i].trim();
@@ -226,16 +235,21 @@
       if (cols.length < 2) continue;
 
       const itemName = cols[0];
-      const totalStr = cols[1];
 
       // Пропуск заголовков
       const lowerName = itemName.toLowerCase();
-      const lowerTotal = totalStr.toLowerCase();
+      const lowerTotal = cols[1].toLowerCase();
       if (['item', 'предмет', 'название', 'наименование'].includes(lowerName) ||
           ['total', 'всего', 'кол-во', 'количество'].includes(lowerTotal)) {
+        quantityIndex = cols.findIndex(value => quantityNames.includes(column === 'Missing' ? value : value.toLowerCase()));
+        if (quantityIndex === -1) {
+          throw new Error(`В файле отсутствует столбец ${column}.`);
+        }
         continue;
       }
 
+      if (quantityIndex === -1) continue;
+      const totalStr = cols[quantityIndex] || '';
       const cleanTotal = totalStr.replace(/[\s,\u00A0]/g, '');
       if (!/^\d+$/.test(cleanTotal)) continue;
 
@@ -245,6 +259,9 @@
       }
     }
 
+    if (quantityIndex === -1) {
+      throw new Error('Не найден заголовок столбца Missing.');
+    }
     return materials;
   }
 
@@ -260,7 +277,7 @@
       for (const entry of rawItems) {
         if (!entry || typeof entry !== 'object') continue;
         const itemId = entry.Item || entry.item || entry.ID || entry.id || entry.Name || entry.name;
-        const totalVal = entry.Total !== undefined ? entry.Total : (entry.total !== undefined ? entry.total : entry.count);
+        const totalVal = entry.Total ?? entry.total ?? entry.Count ?? entry.count;
         if (itemId !== undefined && totalVal !== undefined) {
           const cleanTotal = parseInt(String(totalVal).replace(/[\s,\u00A0]/g, ''), 10);
           if (!isNaN(cleanTotal)) {
@@ -355,20 +372,20 @@
   // ==========================================================================
   // Генерация Excel (.xlsx) через SheetJS
   // ==========================================================================
-  function generateExcelWorkbook(rows) {
+  function generateExcelWorkbook(rows, column = 'Total') {
     if (!window.XLSX) {
       log('Библиотека SheetJS (XLSX) не загружена!', 'error');
       return null;
     }
 
-    const cleanRows = rows.map(({ _group, ...rest }) => rest);
+    const cleanRows = rows.map(({ _group, Total, ...rest }) => ({ ...rest, [column]: Total }));
 
     const worksheet = XLSX.utils.json_to_sheet(cleanRows, {
-      header: ['Local_ID', 'Item', 'Total', 'Стаки', 'Даблчесты', 'Шалкербоксы']
+      header: ['Local_ID', 'Item', column, 'Стаки', 'Даблчесты', 'Шалкербоксы']
     });
 
     // Автоподбор ширины столбцов
-    const headers = ['Local_ID', 'Item', 'Total', 'Стаки', 'Даблчесты', 'Шалкербоксы'];
+    const headers = ['Local_ID', 'Item', column, 'Стаки', 'Даблчесты', 'Шалкербоксы'];
     const colWidths = headers.map(header => {
       let maxLen = header.length;
       for (let i = 0; i < cleanRows.length; i++) {
@@ -432,6 +449,13 @@
   function handleFile(file) {
     if (!file) return;
 
+    const readVersion = ++fileReadVersion;
+    const isText = file.name.toLowerCase().endsWith('.txt');
+    const isJson = file.name.toLowerCase().endsWith('.json');
+    const column = isText ? quantityColumn : 'Total';
+    quantitySelector.hidden = !isText;
+    quantityHeader.textContent = column === 'Total' ? 'Всего (Total)' : 'Недостающие (Missing)';
+    resetResult();
     currentFile = file;
     fileNameDisplay.textContent = file.name;
     fileSizeDisplay.textContent = `${(file.size / 1024).toFixed(1)} КБ`;
@@ -444,12 +468,13 @@
 
     const reader = new FileReader();
     reader.onload = function (e) {
+      if (readVersion !== fileReadVersion) return;
       try {
         const text = e.target.result;
         log(`Чтение файла завершено. Анализ содержимого...`, 'info');
 
-        const isJson = file.name.toLowerCase().endsWith('.json');
-        const materials = isJson ? parseMaterialListJson(text) : parseMaterialListText(text);
+        log(`Количество предметов: ${column}.`, 'info');
+        const materials = isJson ? parseMaterialListJson(text) : parseMaterialListText(text, column);
 
         if (materials.length === 0) {
           log(`В файле "${file.name}" не найдено материалов из Litematica! Проверьте формат.`, 'error');
@@ -475,7 +500,7 @@
         statShulkers.textContent = totalShulkers;
 
         // Генерация Excel
-        generatedWorkbook = generateExcelWorkbook(convertedRows);
+        generatedWorkbook = generateExcelWorkbook(convertedRows, column);
         if (generatedWorkbook) {
           downloadBtn.disabled = false;
           log(`Таблица Excel успешно сгенерирована и готова к скачиванию!`, 'success');
@@ -485,16 +510,31 @@
         renderPreviewTable(convertedRows);
 
       } catch (err) {
+        resetResult();
         log(`Критическая ошибка обработки файла: ${err.message}`, 'error');
         console.error(err);
       }
     };
 
     reader.onerror = function () {
+      if (readVersion !== fileReadVersion) return;
       log(`Ошибка чтения файла "${file.name}".`, 'error');
     };
 
     reader.readAsText(file, 'utf-8');
+  }
+
+  function resetResult() {
+    convertedRows = null;
+    generatedWorkbook = null;
+    downloadBtn.disabled = true;
+    statRows.textContent = '0';
+    statChests.textContent = '0';
+    statShulkers.textContent = '0';
+    groupBadgeBig.textContent = 'Более 27 стаков: 0';
+    groupBadgeMid.textContent = 'От 1 до 27 стаков: 0';
+    groupBadgeMin.textContent = 'Меньше 1 стака: 0';
+    renderPreviewTable([]);
   }
 
   // ==========================================================================
@@ -502,6 +542,14 @@
   // ==========================================================================
 
   // Кнопка "Открыть"
+  quantityInputs.forEach(input => {
+    input.addEventListener('change', () => {
+      if (!input.checked) return;
+      quantityColumn = input.value;
+      if (currentFile) handleFile(currentFile);
+    });
+  });
+
   openFileBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     fileInput.click();
