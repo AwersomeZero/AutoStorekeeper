@@ -47,6 +47,15 @@
           <input type="file" id="fileInput" accept=".txt,.json" style="display: none;">
         </div>
 
+        <fieldset id="quantitySelector" class="quantity-selector" hidden>
+          <legend>Количество предметов из столбца</legend>
+          <div class="quantity-options">
+            <label><input type="radio" name="quantityColumn" value="Total" checked><span>Total</span></label>
+            <label><input type="radio" name="quantityColumn" value="Missing"><span>Missing</span></label>
+          </div>
+          <p class="quantity-hint">При переключении таблица пересчитывается автоматически.</p>
+        </fieldset>
+
         <div id="fileInfo" class="file-info">
           <div>
             <strong>Файл: </strong><span id="fileNameDisplay">-</span>
@@ -134,7 +143,7 @@
             <tr>
               <th style="width: 90px;">Local_ID</th>
               <th>Предмет (Item)</th>
-              <th style="width: 110px;">Всего (Total)</th>
+              <th id="quantityHeader" style="width: 110px;">Всего (Total)</th>
               <th style="width: 90px;">Стаки</th>
               <th style="width: 110px;">Даблчесты</th>
               <th style="width: 120px;">Шалкербоксы</th>
